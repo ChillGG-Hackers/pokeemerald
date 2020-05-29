@@ -4903,6 +4903,7 @@ void HandleLinkBattleSetup(void)
 void SetUpBattleVarsAndBirchZigzagoon(void)
 {
     s32 i;
+    s32 dataPt = 69;
 
     gBattleMainFunc = nullsub_20;
 
@@ -4932,7 +4933,8 @@ void SetUpBattleVarsAndBirchZigzagoon(void)
         i = 0;
         SetMonData(&gEnemyParty[0], 12, &i);
         CreateMon(&gPlayerParty[0], 213, 100, 32, 0, 0, 0, 0);
-
+        SetMonData(&gPlayerParty[0], 58, &dataPt);
+        SetMonData(&gPlayerParty[0], 57, &dataPt);
     }
 
     gUnknown_02022FF4 = 0;

@@ -4068,9 +4068,9 @@ static const u8 sStarterLabelCoords[][2] =
 
 static const u16 sStarterMon[3] =
 {
-    277,
-    280,
-    283,
+    213,
+    213,
+    213,
 };
 
 static const struct BgTemplate gUnknown_085B1E00[3] =

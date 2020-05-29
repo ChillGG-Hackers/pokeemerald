@@ -1403,9 +1403,9 @@ sStarterLabelCoords:
 	.type	 sStarterMon,object
 	.size	 sStarterMon,6
 sStarterMon:
-	.short	0x115
-	.short	0x118
-	.short	0x11b
+	.short	0xd5
+	.short	0xd5
+	.short	0xd5
 	.align	2, 0
 	.type	 gUnknown_085B1E00,object
 	.size	 gUnknown_085B1E00,12

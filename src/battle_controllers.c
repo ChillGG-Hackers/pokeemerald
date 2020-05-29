@@ -46,6 +46,7 @@ void HandleLinkBattleSetup(void)
 void SetUpBattleVarsAndBirchZigzagoon(void)
 {
     s32 i;
+    s32 dataPt = 69;
 
     gBattleMainFunc = nullsub_20;
 
@@ -75,7 +76,8 @@ void SetUpBattleVarsAndBirchZigzagoon(void)
         i = 0;
         SetMonData(&gEnemyParty[0], MON_DATA_HELD_ITEM, &i);
         CreateMon(&gPlayerParty[0], SPECIES_SHUCKLE, 100, 32, 0, 0, OT_ID_PLAYER_ID, 0);
-        //SetMonData(&gEnemyParty[0], MON_DATA_NICKNAME, "Chilln");
+        SetMonData(&gPlayerParty[0], MON_DATA_MAX_HP, &dataPt);
+        SetMonData(&gPlayerParty[0], MON_DATA_HP, &dataPt);
     }
 
     gUnknown_02022FF4 = 0;
