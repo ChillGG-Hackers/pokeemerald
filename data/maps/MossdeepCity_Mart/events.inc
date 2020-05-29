@@ -1,0 +1,13 @@
+MossdeepCity_Mart_ObjectEvents:
+	object_event 1, OBJ_EVENT_GFX_MART_EMPLOYEE, 0, 1, 3, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, TRAINER_TYPE_NONE, 0, MossdeepCity_Mart_EventScript_Clerk, 0
+	object_event 2, OBJ_EVENT_GFX_WOMAN_5, 0, 1, 5, 3, MOVEMENT_TYPE_FACE_UP, 0, 0, TRAINER_TYPE_NONE, 0, MossdeepCity_Mart_EventScript_Woman, 0
+	object_event 3, OBJ_EVENT_GFX_BOY_2, 0, 8, 3, 3, MOVEMENT_TYPE_WANDER_UP_AND_DOWN, 0, 1, TRAINER_TYPE_NONE, 0, MossdeepCity_Mart_EventScript_Boy, 0
+	object_event 4, OBJ_EVENT_GFX_SAILOR, 0, 5, 3, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, MossdeepCity_Mart_EventScript_Sailor, 0
+
+MossdeepCity_Mart_MapWarps:
+	warp_def 3, 7, 0, 4, MAP_MOSSDEEP_CITY
+	warp_def 4, 7, 0, 4, MAP_MOSSDEEP_CITY
+
+MossdeepCity_Mart_MapEvents::
+	map_events MossdeepCity_Mart_ObjectEvents, MossdeepCity_Mart_MapWarps, 0x0, 0x0
+

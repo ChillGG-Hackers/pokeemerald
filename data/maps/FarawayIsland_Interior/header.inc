@@ -1,0 +1,15 @@
+FarawayIsland_Interior:
+	.4byte FarawayIsland_Interior_Layout
+	.4byte FarawayIsland_Interior_MapEvents
+	.4byte FarawayIsland_Interior_MapScripts
+	.4byte 0x0
+	.2byte MUS_DAN02
+	.2byte LAYOUT_FARAWAY_ISLAND_INTERIOR
+	.byte MAPSEC_FARAWAY_ISLAND
+	.byte 0
+	.byte WEATHER_SHADE
+	.byte MAP_TYPE_INDOOR
+	.2byte 0
+	map_header_flags allow_cycling=1, allow_escaping=0, allow_running=1, show_map_name=1
+	.byte MAP_BATTLE_SCENE_NORMAL
+

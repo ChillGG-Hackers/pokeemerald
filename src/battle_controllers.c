@@ -14,6 +14,8 @@
 #include "constants/abilities.h"
 #include "constants/species.h"
 
+#define FIRST_FIGHT_MON SPECIES_BULBASAUR
+
 static EWRAM_DATA u8 sLinkSendTaskId = 0;
 static EWRAM_DATA u8 sLinkReceiveTaskId = 0;
 static EWRAM_DATA u8 sUnknown_02022D0A = 0;
@@ -64,9 +66,15 @@ void SetUpBattleVarsAndBirchZigzagoon(void)
     if (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
     {
         ZeroEnemyPartyMons();
-        CreateMon(&gEnemyParty[0], SPECIES_CHARMANDER, 2, 32, 0, 0, OT_ID_PLAYER_ID, 0);
+        CreateMon(&gEnemyParty[0], FIRST_FIGHT_MON, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
+        CreateMon(&gEnemyParty[1], SPECIES_CHARMANDER, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
+        CreateMon(&gEnemyParty[2], SPECIES_SQUIRTLE, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
+        CreateMon(&gEnemyParty[3], SPECIES_VENUSAUR, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
+        CreateMon(&gEnemyParty[4], SPECIES_BLASTOISE, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
+        CreateMon(&gEnemyParty[5], SPECIES_CHARIZARD, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
         i = 0;
         SetMonData(&gEnemyParty[0], MON_DATA_HELD_ITEM, &i);
+        CreateMon(&gPlayerParty[0], SPECIES_SHUCKLE, 100, 32, 0, 0, OT_ID_PLAYER_ID, 0);
         //SetMonData(&gEnemyParty[0], MON_DATA_NICKNAME, "Chilln");
     }
 

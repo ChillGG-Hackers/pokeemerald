@@ -2925,6 +2925,7 @@ static const u16 sShuckleLevelUpLearnset[] = {
     LEVEL_UP_MOVE(23, MOVE_SAFEGUARD),
     LEVEL_UP_MOVE(28, MOVE_BIDE),
     LEVEL_UP_MOVE(37, MOVE_REST),
+    LEVEL_UP_MOVE(45, MOVE_RAGE),
     LEVEL_UP_END
 };
 
