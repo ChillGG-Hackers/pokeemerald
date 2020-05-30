@@ -680,7 +680,7 @@ static void Mailbox_ReturnToPlayerPC(u8 taskId)
     DestroyListMenuTask(data[5], NULL, NULL);
     schedule_bg_copy_tilemap_to_vram(0);
     sub_81D1EC0();
-    ReshowPlayerPC(taskId);
+    //ReshowPlayerPC(taskId);
 }
 
 static void Mailbox_PrintMailOptions(u8 taskId)

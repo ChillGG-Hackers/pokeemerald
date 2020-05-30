@@ -21169,8 +21169,8 @@ bool8 MovementAction_WalkRightAffine_Step1(struct ObjectEvent *objectEvent, stru
 {
     if (npc_obj_ministep_stop_on_arrival(objectEvent, sprite))
     {
-        sprite->affineAnimPaused = 1;
-        sprite->data[2] = 2;
+
+
         return 1;
     }
     return 0;

@@ -156523,8 +156523,7 @@ MovementAction_WalkRightAffine_Step0:
 	.type	 MovementAction_WalkRightAffine_Step1,function
 	.thumb_func
 MovementAction_WalkRightAffine_Step1:
-	push	{r4, lr}
-	add	r4, r1, #0
+	push	{lr}
 	bl	npc_obj_ministep_stop_on_arrival
 	lsl	r0, r0, #0x18
 	cmp	r0, #0
@@ -156532,17 +156531,8 @@ MovementAction_WalkRightAffine_Step1:
 	mov	r0, #0x0
 	b	.L2088
 .L2087:
-	add	r2, r4, #0
-	add	r2, r2, #0x2c
-	ldrb	r0, [r2]
-	mov	r1, #0x80
-	orr	r0, r0, r1
-	strb	r0, [r2]
-	mov	r0, #0x2
-	strh	r0, [r4, #0x32]
 	mov	r0, #0x1
 .L2088:
-	pop	{r4}
 	pop	{r1}
 	bx	r1
 .Lfe645:
@@ -159422,9 +159412,9 @@ ObjectEventCheckForReflectiveSurface:
 	str	r2, [sp, #0x4]
 	asr	r0, r0, #0x10
 	cmp	r4, r0
-	blt	.LCB29219
+	blt	.LCB29212
 	b	.L2302	@long jump
-.LCB29219:
+.LCB29212:
 	mov	r0, #0x1
 	mov	sl, r0
 .L2304:
@@ -159545,9 +159535,9 @@ ObjectEventCheckForReflectiveSurface:
 	ldr	r2, [sp, #0x4]
 	lsl	r0, r2, #0x10
 	cmp	r1, r0
-	bge	.LCB29382
+	bge	.LCB29375
 	b	.L2304	@long jump
-.LCB29382:
+.LCB29375:
 .L2302:
 	mov	r0, #0x0
 .L2317:

@@ -1,3 +1,4 @@
+#include "game_type.h"
 #include "global.h"
 #include "bg.h"
 #include "data.h"
@@ -24,7 +25,13 @@
 #include "constants/species.h"
 #include "constants/rgb.h"
 
-#define STARTER_MON_COUNT   3
+#ifdef POKEMON_QUICK
+#define STARTER_MONS SPECIES_SQUIRTLE, SPECIES_BALTOY, SPECIES_MAREEP
+#else
+#define STARTER_MONS SPECIES_CHARMANDER, SPECIES_ARON, SPECIES_RHYHORN
+#endif
+
+#define STARTER_MON_COUNT   4
 
 // Position of the sprite of the selected starter Pokemon
 #define STARTER_PKMN_POS_X 120
@@ -126,9 +133,7 @@ static const u8 sStarterLabelCoords[][2] =
 
 static const u16 sStarterMon[STARTER_MON_COUNT] =
 {
-    SPECIES_SHUCKLE,
-    SPECIES_SHUCKLE,
-    SPECIES_SHUCKLE,
+    STARTER_MONS
 };
 
 static const struct BgTemplate gUnknown_085B1E00[3] =

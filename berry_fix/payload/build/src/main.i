@@ -283,16 +283,17 @@ void AGBAssert(const char *pFile, int nLine, const char *pExpression, int nStopP
 
 
 
+
 # 1 "include/gba/gba.h" 1
-# 5 "include/global.h" 2
-# 43 "include/global.h"
+# 6 "include/global.h" 2
+# 44 "include/global.h"
 enum
 {
     B_8 = 1,
     B_16 = 2,
     B_32 = 4
 };
-# 77 "include/global.h"
+# 78 "include/global.h"
 enum
 {
     VERSION_SAPPHIRE = 1,
@@ -306,7 +307,7 @@ enum LanguageId
     LANGUAGE_ENGLISH = 2,
     LANGUAGE_GERMAN = 5,
 };
-# 110 "include/global.h"
+# 111 "include/global.h"
 enum
 {
     MALE,
@@ -383,7 +384,7 @@ struct SecretBaseRecord
 };
 
 # 1 "include/constants/game_stat.h" 1
-# 186 "include/global.h" 2
+# 187 "include/global.h" 2
 # 1 "include/global.fieldmap.h" 1
 
 
@@ -691,7 +692,7 @@ extern struct EventObject gMapObjects[];
 extern u8 gSelectedEventObject;
 extern struct MapHeader gMapHeader;
 extern struct PlayerAvatar gPlayerAvatar;
-# 187 "include/global.h" 2
+# 188 "include/global.h" 2
 # 1 "include/global.berry.h" 1
 
 
@@ -753,7 +754,7 @@ struct BerryTree
              u8 watered3:1;
              u8 watered4:1;
 };
-# 188 "include/global.h" 2
+# 189 "include/global.h" 2
 # 1 "include/pokemon.h" 1
 
 
@@ -907,7 +908,7 @@ struct PokemonStorage
                u8 boxNames[14][9];
                u8 wallpaper[14];
 };
-# 189 "include/global.h" 2
+# 190 "include/global.h" 2
 
 struct WarpData
 {

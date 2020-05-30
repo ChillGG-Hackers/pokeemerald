@@ -4870,9 +4870,7 @@ void CopySpriteTiles(u8 shape, u8 size, u8 *tiles, u16 *tilemap, u8 *output);
 # 15 "src/battle_controllers.c" 2
 # 1 "include/constants/species.h" 1
 # 16 "src/battle_controllers.c" 2
-
-
-
+# 24 "src/battle_controllers.c"
 static __attribute__((section("ewram_data"))) u8 sLinkSendTaskId = 0;
 static __attribute__((section("ewram_data"))) u8 sLinkReceiveTaskId = 0;
 static __attribute__((section("ewram_data"))) u8 sUnknown_02022D0A = 0;
@@ -4924,17 +4922,12 @@ void SetUpBattleVarsAndBirchZigzagoon(void)
     if (gBattleTypeFlags & 0x0010)
     {
         ZeroEnemyPartyMons();
-        CreateMon(&gEnemyParty[0], 1, 1, 1, 0, 0, 0, 0);
-        CreateMon(&gEnemyParty[1], 4, 1, 1, 0, 0, 0, 0);
-        CreateMon(&gEnemyParty[2], 7, 1, 1, 0, 0, 0, 0);
-        CreateMon(&gEnemyParty[3], 3, 1, 1, 0, 0, 0, 0);
-        CreateMon(&gEnemyParty[4], 9, 1, 1, 0, 0, 0, 0);
-        CreateMon(&gEnemyParty[5], 6, 1, 1, 0, 0, 0, 0);
+        CreateMon(&gEnemyParty[0], 193, 3, 3, 0, 0, 0, 0);
         i = 0;
-        SetMonData(&gEnemyParty[0], 12, &i);
-        CreateMon(&gPlayerParty[0], 213, 100, 32, 0, 0, 0, 0);
-        SetMonData(&gPlayerParty[0], 58, &dataPt);
-        SetMonData(&gPlayerParty[0], 57, &dataPt);
+
+
+
+
     }
 
     gUnknown_02022FF4 = 0;

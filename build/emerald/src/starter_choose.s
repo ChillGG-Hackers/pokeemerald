@@ -1382,7 +1382,7 @@ gUnknown_085B1DE4:
 	.byte	0xe
 	.short	0x274
 	.type	 sPokeballCoords,object
-	.size	 sPokeballCoords,6
+	.size	 sPokeballCoords,8
 sPokeballCoords:
 	.byte	0x3c
 	.byte	0x40
@@ -1390,6 +1390,7 @@ sPokeballCoords:
 	.byte	0x58
 	.byte	0xb4
 	.byte	0x40
+	.space	2
 	.type	 sStarterLabelCoords,object
 sStarterLabelCoords:
 	.byte	0x0
@@ -1401,11 +1402,12 @@ sStarterLabelCoords:
 	.size	 sStarterLabelCoords,6
 	.align	1, 0
 	.type	 sStarterMon,object
-	.size	 sStarterMon,6
+	.size	 sStarterMon,8
 sStarterMon:
-	.short	0xd5
-	.short	0xd5
-	.short	0xd5
+	.short	0x7
+	.short	0x13e
+	.short	0xb3
+	.space	2
 	.align	2, 0
 	.type	 gUnknown_085B1E00,object
 	.size	 gUnknown_085B1E00,12
@@ -1682,7 +1684,7 @@ GetStarterPokemon:
 	push	{lr}
 	lsl	r0, r0, #0x10
 	lsr	r1, r0, #0x10
-	cmp	r1, #0x3
+	cmp	r1, #0x4
 	bls	.L3	@cond_branch
 	mov	r1, #0x0
 .L3:
@@ -2160,7 +2162,7 @@ Task_StarterChoose2:
 	and	r0, r0, r1
 	cmp	r0, #0
 	beq	.L16	@cond_branch
-	cmp	r4, #0x1
+	cmp	r4, #0x2
 	bhi	.L16	@cond_branch
 	lsl	r0, r5, #0x2
 	add	r0, r0, r5

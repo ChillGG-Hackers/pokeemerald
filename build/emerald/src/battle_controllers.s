@@ -71,44 +71,44 @@ HandleLinkBattleSetup:
 	.thumb_func
 SetUpBattleVarsAndBirchZigzagoon:
 	push	{r4, r5, r6, r7, lr}
-	add	sp, sp, #-0x18
-	mov	r0, #0x45
-	str	r0, [sp, #0x14]
+	mov	r7, r8
+	push	{r7}
+	add	sp, sp, #-0x10
 	ldr	r1, .L15
 	ldr	r0, .L15+0x4
 	str	r0, [r1]
-	mov	r0, #0x0
-	str	r0, [sp, #0x10]
-	mov	r1, #0x0
-	ldr	r7, .L15+0x8
-	ldr	r6, .L15+0xc
 	mov	r2, #0x0
-	ldr	r5, .L15+0x10
-	ldr	r4, .L15+0x14
-	ldr	r3, .L15+0x18
+	ldr	r0, .L15+0x8
+	mov	r8, r0
+	mov	r3, #0x0
+	ldr	r1, .L15+0xc
+	mov	ip, r1
+	ldr	r7, .L15+0x10
+	mov	r6, #0xff
+	ldr	r5, .L15+0x14
+	ldr	r4, .L15+0x18
 .L12:
-	lsl	r0, r1, #0x2
-	add	r0, r0, r7
-	str	r4, [r0]
-	add	r1, r1, r3
-	mov	r0, #0xff
+	mov	r0, r8
+	mov	r1, ip
+	add	r1, r1, #0x4
+	mov	ip, r1
+	sub	r1, r1, #0x4
+	stmia	r1!, {r0}
+	add	r1, r2, r7
+	ldrb	r0, [r1]
+	orr	r0, r0, r6
 	strb	r0, [r1]
-	ldr	r0, [sp, #0x10]
-	add	r0, r0, r6
-	strb	r2, [r0]
-	ldr	r0, [sp, #0x10]
-	add	r0, r0, r5
-	strb	r2, [r0]
-	ldr	r0, [sp, #0x10]
-	add	r0, r0, #0x1
-	str	r0, [sp, #0x10]
-	add	r1, r0, #0
-	cmp	r1, #0x3
+	add	r0, r2, r5
+	strb	r3, [r0]
+	add	r0, r2, r4
+	strb	r3, [r0]
+	add	r2, r2, #0x1
+	cmp	r2, #0x3
 	ble	.L12	@cond_branch
 	bl	HandleLinkBattleSetup
 	ldr	r0, .L15+0x1c
-	mov	r6, #0x0
-	str	r6, [r0]
+	mov	r4, #0x0
+	str	r4, [r0]
 	bl	ClearBattleAnimationVars
 	bl	ClearBattleMonForms
 	mov	r0, #0xf
@@ -120,99 +120,23 @@ SetUpBattleVarsAndBirchZigzagoon:
 	cmp	r0, #0
 	beq	.L14	@cond_branch
 	bl	ZeroEnemyPartyMons
-	ldr	r4, .L15+0x24
-	str	r6, [sp]
-	str	r6, [sp, #0x4]
-	str	r6, [sp, #0x8]
-	str	r6, [sp, #0xc]
-	add	r0, r4, #0
-	mov	r1, #0x1
-	mov	r2, #0x1
-	mov	r3, #0x1
+	ldr	r0, .L15+0x24
+	str	r4, [sp]
+	str	r4, [sp, #0x4]
+	str	r4, [sp, #0x8]
+	str	r4, [sp, #0xc]
+	mov	r1, #0xc1
+	mov	r2, #0x3
+	mov	r3, #0x3
 	bl	CreateMon
-	add	r0, r4, #0
-	add	r0, r0, #0x64
-	str	r6, [sp]
-	str	r6, [sp, #0x4]
-	str	r6, [sp, #0x8]
-	str	r6, [sp, #0xc]
-	mov	r1, #0x4
-	mov	r2, #0x1
-	mov	r3, #0x1
-	bl	CreateMon
-	add	r0, r4, #0
-	add	r0, r0, #0xc8
-	str	r6, [sp]
-	str	r6, [sp, #0x4]
-	str	r6, [sp, #0x8]
-	str	r6, [sp, #0xc]
-	mov	r1, #0x7
-	mov	r2, #0x1
-	mov	r3, #0x1
-	bl	CreateMon
-	mov	r1, #0x96
-	lsl	r1, r1, #0x1
-	add	r0, r4, r1
-	str	r6, [sp]
-	str	r6, [sp, #0x4]
-	str	r6, [sp, #0x8]
-	str	r6, [sp, #0xc]
-	mov	r1, #0x3
-	mov	r2, #0x1
-	mov	r3, #0x1
-	bl	CreateMon
-	mov	r1, #0xc8
-	lsl	r1, r1, #0x1
-	add	r0, r4, r1
-	str	r6, [sp]
-	str	r6, [sp, #0x4]
-	str	r6, [sp, #0x8]
-	str	r6, [sp, #0xc]
-	mov	r1, #0x9
-	mov	r2, #0x1
-	mov	r3, #0x1
-	bl	CreateMon
-	mov	r1, #0xfa
-	lsl	r1, r1, #0x1
-	add	r0, r4, r1
-	str	r6, [sp]
-	str	r6, [sp, #0x4]
-	str	r6, [sp, #0x8]
-	str	r6, [sp, #0xc]
-	mov	r1, #0x6
-	mov	r2, #0x1
-	mov	r3, #0x1
-	bl	CreateMon
-	str	r6, [sp, #0x10]
-	add	r0, r4, #0
-	mov	r1, #0xc
-	add	r2, sp, #0x10
-	bl	SetMonData
-	ldr	r4, .L15+0x28
-	str	r6, [sp]
-	str	r6, [sp, #0x4]
-	str	r6, [sp, #0x8]
-	str	r6, [sp, #0xc]
-	add	r0, r4, #0
-	mov	r1, #0xd5
-	mov	r2, #0x64
-	mov	r3, #0x20
-	bl	CreateMon
-	add	r5, sp, #0x14
-	add	r0, r4, #0
-	mov	r1, #0x3a
-	add	r2, r5, #0
-	bl	SetMonData
-	add	r0, r4, #0
-	mov	r1, #0x39
-	add	r2, r5, #0
-	bl	SetMonData
 .L14:
+	ldr	r0, .L15+0x28
+	str	r4, [r0]
 	ldr	r0, .L15+0x2c
-	str	r6, [r0]
-	ldr	r0, .L15+0x30
-	strb	r6, [r0]
-	add	sp, sp, #0x18
+	strb	r4, [r0]
+	add	sp, sp, #0x10
+	pop	{r3}
+	mov	r8, r3
 	pop	{r4, r5, r6, r7}
 	pop	{r0}
 	bx	r0
@@ -221,15 +145,14 @@ SetUpBattleVarsAndBirchZigzagoon:
 .L15:
 	.word	gBattleMainFunc
 	.word	nullsub_20
+	.word	nullsub_21
 	.word	gBattlerControllerFuncs
+	.word	gBattlerPositions
 	.word	gActionSelectionCursor
 	.word	gMoveSelectionCursor
-	.word	nullsub_21
-	.word	gBattlerPositions
 	.word	gBattleControllerExecFlags
 	.word	gBattleTypeFlags
 	.word	gEnemyParty
-	.word	gPlayerParty
 	.word	gUnknown_02022FF4
 	.word	gUnknown_0202428C
 .Lfe2:
@@ -355,7 +278,6 @@ InitSinglePlayerBtlControllers:
 	mov	r5, #0x80
 	lsl	r5, r5, #0xf
 	and	r5, r5, r3
-	mov	ip, r0
 	cmp	r5, #0
 	beq	.L46	@cond_branch
 	ldr	r1, .L122+0x4
@@ -436,14 +358,15 @@ InitSinglePlayerBtlControllers:
 	add	r0, r3, #0
 	and	r0, r0, r7
 	cmp	r0, #0
-	beq	.LCB479
+	beq	.LCB391
 	b	.L50	@long jump
-.LCB479:
+.LCB391:
 	ldr	r0, .L126
 	ldr	r2, .L126+0x4
 	str	r2, [r0]
 	mov	r1, #0x80
 	and	r1, r1, r3
+	mov	ip, r2
 	cmp	r1, #0
 	beq	.L51	@cond_branch
 	ldr	r1, .L126+0x8
@@ -490,15 +413,15 @@ InitSinglePlayerBtlControllers:
 	ldr	r2, .L130+0x10
 	mov	r7, #0x2
 	strb	r7, [r2]
-	mov	r0, ip
+	ldr	r0, .L130+0x14
 	ldr	r3, [r0]
 	mov	r0, #0x80
 	lsl	r0, r0, #0x11
 	and	r0, r0, r3
 	cmp	r0, #0
-	bne	.LCB547
+	bne	.LCB459
 	b	.L49	@long jump
-.LCB547:
+.LCB459:
 	mov	r1, #0x80
 	lsl	r1, r1, #0x12
 	and	r1, r1, r3
@@ -509,7 +432,7 @@ InitSinglePlayerBtlControllers:
 	and	r1, r1, r3
 	cmp	r1, #0
 	beq	.L57	@cond_branch
-	ldr	r1, .L130+0x14
+	mov	r1, ip
 	ldr	r0, .L130+0x18
 	str	r1, [r0]
 	ldr	r0, .L130+0x1c
@@ -529,7 +452,7 @@ InitSinglePlayerBtlControllers:
 	.word	gBattlerPositions
 	.word	SetControllerToOpponent
 	.word	gBattlersCount
-	.word	BeginBattleIntro
+	.word	gBattleTypeFlags
 	.word	gBattleMainFunc
 	.word	SetControllerToRecordedPlayer
 	.word	SetControllerToRecordedOpponent
@@ -591,9 +514,9 @@ InitSinglePlayerBtlControllers:
 	lsl	r0, r0, #0x11
 	and	r0, r0, r3
 	cmp	r0, #0
-	bne	.LCB659
+	bne	.LCB571
 	b	.L49	@long jump
-.LCB659:
+.LCB571:
 	mov	r1, #0xa0
 	lsl	r1, r1, #0x1
 	add	r0, r3, #0
@@ -653,9 +576,9 @@ InitSinglePlayerBtlControllers:
 	mov	r5, #0x40
 	and	r5, r5, r3
 	cmp	r5, #0
-	bne	.LCB724
+	bne	.LCB636
 	b	.L64	@long jump
-.LCB724:
+.LCB636:
 	ldr	r0, .L138
 	ldrb	r5, [r0]
 	mov	r0, #0x0
@@ -877,9 +800,9 @@ InitSinglePlayerBtlControllers:
 	add	sl, sl, r0
 	mov	r1, sl
 	cmp	r1, #0x3
-	bgt	.LCB1014
+	bgt	.LCB926
 	b	.L68	@long jump
-.LCB1014:
+.LCB926:
 	b	.L49
 .L64:
 	mov	r1, #0x4
@@ -1404,9 +1327,9 @@ InitLinkBtlControllers:
 	add	sl, sl, r0
 	mov	r1, sl
 	cmp	r1, #0x3
-	bgt	.LCB1646
+	bgt	.LCB1558
 	b	.L171	@long jump
-.LCB1646:
+.LCB1558:
 	ldr	r1, .L242
 	mov	r0, #0x4
 .L212:
@@ -1439,9 +1362,9 @@ SetBattlePartyIds:
 	mov	r1, #0x40
 	and	r0, r0, r1
 	cmp	r0, #0
-	beq	.LCB1676
+	beq	.LCB1588
 	b	.L245	@long jump
-.LCB1676:
+.LCB1588:
 	mov	r0, #0x0
 	mov	r8, r0
 	b	.L267
@@ -1586,9 +1509,9 @@ SetBattlePartyIds:
 	ldr	r0, .L280
 	ldrb	r0, [r0]
 	cmp	r8, r0
-	bge	.LCB1882
+	bge	.LCB1794
 	b	.L249	@long jump
-.LCB1882:
+.LCB1794:
 	ldr	r0, .L280+0x4
 	ldr	r0, [r0]
 	mov	r1, #0x80
@@ -2001,9 +1924,9 @@ Task_HandleSendLinkBuffersData:
 	ldrsh	r0, [r0, r2]
 	add	r7, r1, #0
 	cmp	r0, #0x5
-	bls	.LCB2322
+	bls	.LCB2234
 	b	.L319	@long jump
-.LCB2322:
+.LCB2234:
 	lsl	r0, r0, #0x2
 	ldr	r1, .L347+0x4
 	add	r0, r0, r1
@@ -2041,9 +1964,9 @@ Task_HandleSendLinkBuffersData:
 	strh	r0, [r1, #0x1c]
 	lsl	r0, r0, #0x10
 	cmp	r0, #0
-	beq	.LCB2364
+	beq	.LCB2276
 	b	.L319	@long jump
-.LCB2364:
+.LCB2276:
 	ldrh	r0, [r1, #0x1e]
 	add	r0, r0, #0x1
 	b	.L345
@@ -2093,9 +2016,9 @@ Task_HandleSendLinkBuffersData:
 	lsl	r0, r0, #0x18
 	lsr	r0, r0, #0x18
 	cmp	r0, r5
-	bcs	.LCB2430
+	bcs	.LCB2342
 	b	.L319	@long jump
-.LCB2430:
+.LCB2342:
 	bl	IsLinkMaster
 	lsl	r0, r0, #0x18
 	cmp	r0, #0
@@ -2406,9 +2329,9 @@ Task_HandleCopyReceivedLinkBuffersData:
 	mov	r4, #0x24
 	ldrsh	r0, [r3, r4]
 	cmp	r2, r0
-	bne	.LCB2799
+	bne	.LCB2711
 	b	.L379	@long jump
-.LCB2799:
+.LCB2711:
 	cmp	r2, r0
 	ble	.L381	@cond_branch
 	mov	r4, #0x20

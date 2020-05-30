@@ -2,6 +2,8 @@
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "src/starter_choose.c"
+# 1 "include/game_type.h" 1
+# 2 "src/starter_choose.c" 2
 # 1 "include/global.h" 1
 
 
@@ -2809,7 +2811,7 @@ struct TradeRoomPlayer
     struct MapPosition pos;
     u16 field_C;
 };
-# 2 "src/starter_choose.c" 2
+# 3 "src/starter_choose.c" 2
 # 1 "gflib/bg.h" 1
 
 
@@ -2894,7 +2896,7 @@ void CopyTileMapEntry(const u16 *src, u16 *dest, s32 palette1, s32 tileOffset, s
 u32 GetBgType(u8 bg);
 bool32 IsInvalidBg32(u8 bg);
 bool32 IsTileMapOutsideWram(u8 bg);
-# 3 "src/starter_choose.c" 2
+# 4 "src/starter_choose.c" 2
 # 1 "include/data.h" 1
 
 
@@ -3015,7 +3017,7 @@ extern const struct Trainer gTrainers[];
 extern const u8 gTrainerClassNames[][13];
 extern const u8 gSpeciesNames[][10 + 1];
 extern const u8 gMoveNames[355][12 + 1];
-# 4 "src/starter_choose.c" 2
+# 5 "src/starter_choose.c" 2
 # 1 "include/decompress.h" 1
 
 
@@ -3048,7 +3050,7 @@ void LoadSpecialPokePic_2(const struct CompressedSpriteSheet *src, void *dest, s
 void LoadSpecialPokePic_DontHandleDeoxys(const struct CompressedSpriteSheet *src, void *dest, s32 species, u32 personality, bool8 isFrontPic);
 
 u32 GetDecompressedDataSize(const u32 *ptr);
-# 5 "src/starter_choose.c" 2
+# 6 "src/starter_choose.c" 2
 # 1 "include/event_data.h" 1
 
 
@@ -3107,7 +3109,7 @@ extern u16 gSpecialVar_Facing;
 extern u16 gSpecialVar_MonBoxId;
 extern u16 gSpecialVar_MonBoxPos;
 extern u16 gSpecialVar_Unused_0x8014;
-# 6 "src/starter_choose.c" 2
+# 7 "src/starter_choose.c" 2
 # 1 "gflib/gpu_regs.h" 1
 # 9 "gflib/gpu_regs.h"
 void InitGpuRegManager(void);
@@ -3119,7 +3121,7 @@ void SetGpuRegBits(u8 regOffset, u16 mask);
 void ClearGpuRegBits(u8 regOffset, u16 mask);
 void EnableInterrupts(u16 mask);
 void DisableInterrupts(u16 mask);
-# 7 "src/starter_choose.c" 2
+# 8 "src/starter_choose.c" 2
 # 1 "include/international_string_util.h" 1
 
 
@@ -3626,7 +3628,7 @@ void sub_81DB554(u8 *, u8);
 void sub_81DB5AC(u8 *);
 int sub_81DB604(u8 *);
 void sub_81DB620(int windowId, int columnStart, int rowStart, int numFillTiles, int numRows);
-# 8 "src/starter_choose.c" 2
+# 9 "src/starter_choose.c" 2
 # 1 "include/main.h" 1
 
 
@@ -3702,9 +3704,9 @@ void StartTimer1(void);
 void SeedRngAndSetTrainerId(void);
 u16 GetGeneratedTrainerIdLower(void);
 void sub_819789C(void);
-# 9 "src/starter_choose.c" 2
-# 1 "include/menu.h" 1
 # 10 "src/starter_choose.c" 2
+# 1 "include/menu.h" 1
+# 11 "src/starter_choose.c" 2
 # 1 "include/palette.h" 1
 # 17 "include/palette.h"
 enum
@@ -3768,7 +3770,7 @@ void TintPalette_GrayScale(u16 *palette, u16 count);
 void TintPalette_GrayScale2(u16 *palette, u16 count);
 void TintPalette_SepiaTone(u16 *palette, u16 count);
 void TintPalette_CustomTone(u16 *palette, u16 count, u16 rTone, u16 gTone, u16 bTone);
-# 11 "src/starter_choose.c" 2
+# 12 "src/starter_choose.c" 2
 # 1 "include/pokedex.h" 1
 
 
@@ -3814,9 +3816,9 @@ bool16 HasAllHoennMons(void);
 void ResetPokedexScrollPositions(void);
 bool16 HasAllMons(void);
 void CB2_OpenPokedex(void);
-# 12 "src/starter_choose.c" 2
-# 1 "include/pokemon.h" 1
 # 13 "src/starter_choose.c" 2
+# 1 "include/pokemon.h" 1
+# 14 "src/starter_choose.c" 2
 # 1 "include/scanline_effect.h" 1
 # 17 "include/scanline_effect.h"
 struct ScanlineEffectParams
@@ -3849,7 +3851,7 @@ void ScanlineEffect_Clear(void);
 void ScanlineEffect_SetParams(struct ScanlineEffectParams);
 void ScanlineEffect_InitHBlankDmaTransfer(void);
 u8 ScanlineEffect_InitWave(u8 startLine, u8 endLine, u8 frequency, u8 amplitude, u8 delayInterval, u8 regOffset, bool8 a7);
-# 14 "src/starter_choose.c" 2
+# 15 "src/starter_choose.c" 2
 # 1 "include/sound.h" 1
 
 
@@ -3897,7 +3899,7 @@ void SE12PanpotControl(s8 pan);
 bool8 IsSEPlaying(void);
 bool8 IsBGMPlaying(void);
 bool8 IsSpecialSEPlaying(void);
-# 15 "src/starter_choose.c" 2
+# 16 "src/starter_choose.c" 2
 
 # 1 "include/starter_choose.h" 1
 
@@ -3910,9 +3912,9 @@ extern const u32 gBirchHelpGfx[];
 
 u16 GetStarterPokemon(u16 chosenStarterId);
 void CB2_ChooseStarter(void);
-# 17 "src/starter_choose.c" 2
-# 1 "include/task.h" 1
 # 18 "src/starter_choose.c" 2
+# 1 "include/task.h" 1
+# 19 "src/starter_choose.c" 2
 
 # 1 "include/text_window.h" 1
 
@@ -3940,7 +3942,7 @@ void rbox_fill_rectangle(u8 windowId);
 const u16 *stdpal_get(u8 id);
 const u16 *GetOverworldTextboxPalettePtr(void);
 void sub_8098C6C(u8 bg, u16 destOffset, u8 palOffset);
-# 20 "src/starter_choose.c" 2
+# 21 "src/starter_choose.c" 2
 # 1 "include/trainer_pokemon_sprites.h" 1
 
 
@@ -3953,7 +3955,7 @@ u16 CreateTrainerPicSprite(u16 species, bool8 isFrontPic, s16 x, s16 y, u8 palet
 u16 FreeAndDestroyTrainerPicSprite(u16 spriteId);
 u16 CreateTrainerCardTrainerPicSprite(u16 species, bool8 isFrontPic, u16 destX, u16 destY, u8 paletteSlot, u8 windowId);
 u16 PlayerGenderToFrontTrainerPicId_Debug(u8 gender, bool8 getClass);
-# 21 "src/starter_choose.c" 2
+# 22 "src/starter_choose.c" 2
 # 1 "include/trig.h" 1
 
 
@@ -3964,15 +3966,15 @@ s16 Sin(s16 index, s16 amplitude);
 s16 Cos(s16 index, s16 amplitude);
 s16 Sin2(u16 angle);
 s16 Cos2(u16 angle);
-# 22 "src/starter_choose.c" 2
+# 23 "src/starter_choose.c" 2
 
 # 1 "include/constants/songs.h" 1
-# 24 "src/starter_choose.c" 2
-# 1 "include/constants/species.h" 1
 # 25 "src/starter_choose.c" 2
-# 1 "include/constants/rgb.h" 1
+# 1 "include/constants/species.h" 1
 # 26 "src/starter_choose.c" 2
-# 34 "src/starter_choose.c"
+# 1 "include/constants/rgb.h" 1
+# 27 "src/starter_choose.c" 2
+# 41 "src/starter_choose.c"
 extern const u8 gText_BirchInTrouble[];
 extern const u8 gText_ConfirmStarterChoice[];
 
@@ -4052,7 +4054,7 @@ static const struct WindowTemplate gUnknown_085B1DE4 =
     .baseBlock = 0x0274
 };
 
-static const u8 sPokeballCoords[3][2] =
+static const u8 sPokeballCoords[4][2] =
 {
     {60, 64},
     {120, 88},
@@ -4066,11 +4068,9 @@ static const u8 sStarterLabelCoords[][2] =
     {8, 4},
 };
 
-static const u16 sStarterMon[3] =
+static const u16 sStarterMon[4] =
 {
-    213,
-    213,
-    213,
+    7, 318, 179
 };
 
 static const struct BgTemplate gUnknown_085B1E00[3] =
@@ -4306,7 +4306,7 @@ static const struct SpriteTemplate gUnknown_085B1F40 =
 
 u16 GetStarterPokemon(u16 chosenStarterId)
 {
-    if (chosenStarterId > 3)
+    if (chosenStarterId > 4)
         chosenStarterId = 0;
     return sStarterMon[chosenStarterId];
 }
@@ -4460,7 +4460,7 @@ static void Task_StarterChoose2(u8 taskId)
         gTasks[taskId].data[0]--;
         gTasks[taskId].func = Task_MoveStarterChooseCursor;
     }
-    else if ((gMain.newKeys & 0x0010) && selection < (3 - 1))
+    else if ((gMain.newKeys & 0x0010) && selection < (4 - 1))
     {
         gTasks[taskId].data[0]++;
         gTasks[taskId].func = Task_MoveStarterChooseCursor;

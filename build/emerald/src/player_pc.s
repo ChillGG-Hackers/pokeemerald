@@ -1538,12 +1538,11 @@ Mailbox_PrintWhatToDoWithPlayerMailText:
 	.type	 Mailbox_ReturnToPlayerPC,function
 	.thumb_func
 Mailbox_ReturnToPlayerPC:
-	push	{r4, r5, lr}
-	add	r5, r0, #0
-	lsl	r5, r5, #0x18
-	lsr	r5, r5, #0x18
-	lsl	r4, r5, #0x2
-	add	r4, r4, r5
+	push	{r4, lr}
+	lsl	r0, r0, #0x18
+	lsr	r0, r0, #0x18
+	lsl	r4, r0, #0x2
+	add	r4, r4, r0
 	lsl	r4, r4, #0x3
 	ldr	r0, .L169
 	add	r4, r4, r0
@@ -1558,9 +1557,7 @@ Mailbox_ReturnToPlayerPC:
 	mov	r0, #0x0
 	bl	schedule_bg_copy_tilemap_to_vram
 	bl	sub_81D1EC0
-	add	r0, r5, #0
-	bl	ReshowPlayerPC
-	pop	{r4, r5}
+	pop	{r4}
 	pop	{r0}
 	bx	r0
 .L170:

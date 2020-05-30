@@ -15,6 +15,11 @@
 #include "constants/species.h"
 
 #define FIRST_FIGHT_MON SPECIES_BULBASAUR
+#ifdef PKMN_QUICK
+#define STARTER_MON SPECIES_SQUIRTLE
+#else
+#define STARTER_MON SPECIES_CHARMANDER
+#endif
 
 static EWRAM_DATA u8 sLinkSendTaskId = 0;
 static EWRAM_DATA u8 sLinkReceiveTaskId = 0;
@@ -67,17 +72,12 @@ void SetUpBattleVarsAndBirchZigzagoon(void)
     if (gBattleTypeFlags & BATTLE_TYPE_FIRST_BATTLE)
     {
         ZeroEnemyPartyMons();
-        CreateMon(&gEnemyParty[0], FIRST_FIGHT_MON, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
-        CreateMon(&gEnemyParty[1], SPECIES_CHARMANDER, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
-        CreateMon(&gEnemyParty[2], SPECIES_SQUIRTLE, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
-        CreateMon(&gEnemyParty[3], SPECIES_VENUSAUR, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
-        CreateMon(&gEnemyParty[4], SPECIES_BLASTOISE, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
-        CreateMon(&gEnemyParty[5], SPECIES_CHARIZARD, 1, 1, 0, 0, OT_ID_PLAYER_ID, 0);
+        CreateMon(&gEnemyParty[0], SPECIES_YANMA, 3, 3, 0, 0, OT_ID_PLAYER_ID, 0);
         i = 0;
-        SetMonData(&gEnemyParty[0], MON_DATA_HELD_ITEM, &i);
-        CreateMon(&gPlayerParty[0], SPECIES_SHUCKLE, 100, 32, 0, 0, OT_ID_PLAYER_ID, 0);
-        SetMonData(&gPlayerParty[0], MON_DATA_MAX_HP, &dataPt);
-        SetMonData(&gPlayerParty[0], MON_DATA_HP, &dataPt);
+        //SetMonData(&gEnemyParty[0], MON_DATA_HELD_ITEM, &i);
+        //CreateMon(&gPlayerParty[0], SPECIES_SHUCKLE, 100, 32, 0, 0, OT_ID_PLAYER_ID, 0);
+        //SetMonData(&gPlayerParty[0], MON_DATA_MAX_HP, &dataPt);
+        //SetMonData(&gPlayerParty[0], MON_DATA_HP, &dataPt);
     }
 
     gUnknown_02022FF4 = 0;
