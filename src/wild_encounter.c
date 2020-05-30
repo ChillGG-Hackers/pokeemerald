@@ -379,6 +379,7 @@ static void CreateWildMon(u16 species, u8 level)
         return;
     }
 
+    //CreateMonWithNature(&gEnemyParty[0], SPECIES_SHUCKLE, 100, 32, PickWildMonNature());
     CreateMonWithNature(&gEnemyParty[0], species, level, 32, PickWildMonNature());
 }
 
