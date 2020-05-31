@@ -2111,6 +2111,10 @@ struct BaseStats
             u8 noFlip : 1;
 };
 
+
+
+
+
 struct BattleMove
 {
     u8 effect;
@@ -2122,6 +2126,7 @@ struct BattleMove
     u8 target;
     s8 priority;
     u8 flags;
+    u8 physicality;
 };
 
 struct SpindaSpot
@@ -9737,6 +9742,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [2] =
@@ -9750,6 +9756,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [3] =
@@ -9763,6 +9770,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [4] =
@@ -9776,6 +9784,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [5] =
@@ -9789,6 +9798,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [6] =
@@ -9802,6 +9812,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [7] =
@@ -9815,6 +9826,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [8] =
@@ -9828,6 +9840,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [9] =
@@ -9841,6 +9854,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [10] =
@@ -9854,6 +9868,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [11] =
@@ -9867,6 +9882,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [12] =
@@ -9880,6 +9896,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [13] =
@@ -9893,6 +9910,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [14] =
@@ -9906,6 +9924,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [15] =
@@ -9919,6 +9938,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [16] =
@@ -9932,6 +9952,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [17] =
@@ -9945,6 +9966,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [18] =
@@ -9958,6 +9980,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = -6,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [19] =
@@ -9971,6 +9994,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [20] =
@@ -9984,6 +10008,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [21] =
@@ -9997,6 +10022,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [22] =
@@ -10010,6 +10036,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [23] =
@@ -10023,6 +10050,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [24] =
@@ -10036,6 +10064,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [25] =
@@ -10049,6 +10078,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [26] =
@@ -10062,6 +10092,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [27] =
@@ -10075,6 +10106,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [28] =
@@ -10088,6 +10120,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [29] =
@@ -10101,6 +10134,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [30] =
@@ -10114,6 +10148,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [31] =
@@ -10127,6 +10162,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [32] =
@@ -10140,6 +10176,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [33] =
@@ -10153,6 +10190,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [34] =
@@ -10166,6 +10204,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [35] =
@@ -10179,6 +10218,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [36] =
@@ -10192,6 +10232,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [37] =
@@ -10205,6 +10246,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x4,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [38] =
@@ -10218,6 +10260,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [39] =
@@ -10231,6 +10274,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [40] =
@@ -10244,6 +10288,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [41] =
@@ -10257,6 +10302,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [42] =
@@ -10270,6 +10316,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [43] =
@@ -10283,6 +10330,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [44] =
@@ -10296,6 +10344,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [45] =
@@ -10309,6 +10358,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [46] =
@@ -10322,6 +10372,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = -6,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [47] =
@@ -10335,6 +10386,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [48] =
@@ -10348,6 +10400,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [49] =
@@ -10361,6 +10414,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [50] =
@@ -10374,6 +10428,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [51] =
@@ -10387,6 +10442,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [52] =
@@ -10400,6 +10456,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [53] =
@@ -10413,6 +10470,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [54] =
@@ -10426,6 +10484,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [55] =
@@ -10439,6 +10498,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [56] =
@@ -10452,6 +10512,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [57] =
@@ -10465,6 +10526,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [58] =
@@ -10478,6 +10540,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [59] =
@@ -10491,6 +10554,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [60] =
@@ -10504,6 +10568,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [61] =
@@ -10517,6 +10582,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [62] =
@@ -10530,6 +10596,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [63] =
@@ -10543,6 +10610,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [64] =
@@ -10556,6 +10624,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [65] =
@@ -10569,6 +10638,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [66] =
@@ -10582,6 +10652,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [67] =
@@ -10595,6 +10666,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [68] =
@@ -10608,6 +10680,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x1,
         .priority = -5,
         .flags = 0x1 | 0x10,
+        .physicality = 0,
     },
 
     [69] =
@@ -10621,6 +10694,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [70] =
@@ -10634,6 +10708,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [71] =
@@ -10647,6 +10722,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [72] =
@@ -10660,6 +10736,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [73] =
@@ -10673,6 +10750,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [74] =
@@ -10686,6 +10764,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [75] =
@@ -10699,6 +10778,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [76] =
@@ -10712,6 +10792,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [77] =
@@ -10725,6 +10806,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [78] =
@@ -10738,6 +10820,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [79] =
@@ -10751,6 +10834,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [80] =
@@ -10764,6 +10848,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x4,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [81] =
@@ -10777,6 +10862,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [82] =
@@ -10790,6 +10876,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [83] =
@@ -10803,6 +10890,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [84] =
@@ -10816,6 +10904,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [85] =
@@ -10829,6 +10918,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [86] =
@@ -10842,6 +10932,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [87] =
@@ -10855,6 +10946,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [88] =
@@ -10868,6 +10960,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [89] =
@@ -10881,6 +10974,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x20,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [90] =
@@ -10894,6 +10988,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [91] =
@@ -10907,6 +11002,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [92] =
@@ -10920,6 +11016,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [93] =
@@ -10933,6 +11030,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [94] =
@@ -10946,6 +11044,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [95] =
@@ -10959,6 +11058,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [96] =
@@ -10972,6 +11072,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [97] =
@@ -10985,6 +11086,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [98] =
@@ -10998,6 +11100,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 1,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [99] =
@@ -11011,6 +11114,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [100] =
@@ -11024,6 +11128,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [101] =
@@ -11037,6 +11142,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [102] =
@@ -11050,6 +11156,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2,
+        .physicality = 2,
     },
 
     [103] =
@@ -11063,6 +11170,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [104] =
@@ -11076,6 +11184,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [105] =
@@ -11089,6 +11198,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [106] =
@@ -11102,6 +11212,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [107] =
@@ -11115,6 +11226,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [108] =
@@ -11128,6 +11240,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [109] =
@@ -11141,6 +11254,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [110] =
@@ -11154,6 +11268,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [111] =
@@ -11167,6 +11282,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [112] =
@@ -11180,6 +11296,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [113] =
@@ -11193,6 +11310,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [114] =
@@ -11206,6 +11324,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x2,
+        .physicality = 2,
     },
 
     [115] =
@@ -11219,6 +11338,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [116] =
@@ -11232,6 +11352,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [117] =
@@ -11245,6 +11366,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x20,
+        .physicality = 0,
     },
 
     [118] =
@@ -11258,6 +11380,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x1,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [119] =
@@ -11271,6 +11394,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x1,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [120] =
@@ -11284,6 +11408,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x20,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [121] =
@@ -11297,6 +11422,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [122] =
@@ -11310,6 +11436,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [123] =
@@ -11323,6 +11450,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [124] =
@@ -11336,6 +11464,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [125] =
@@ -11349,6 +11478,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [126] =
@@ -11362,6 +11492,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [127] =
@@ -11375,6 +11506,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [128] =
@@ -11388,6 +11520,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [129] =
@@ -11401,6 +11534,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [130] =
@@ -11414,6 +11548,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [131] =
@@ -11427,6 +11562,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [132] =
@@ -11440,6 +11576,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [133] =
@@ -11453,6 +11590,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [134] =
@@ -11466,6 +11604,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [135] =
@@ -11479,6 +11618,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8 | 0x10,
+        .physicality = 2,
     },
 
     [136] =
@@ -11505,6 +11645,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [138] =
@@ -11518,6 +11659,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [139] =
@@ -11531,6 +11673,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [140] =
@@ -11544,6 +11687,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [141] =
@@ -11557,6 +11701,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [142] =
@@ -11570,6 +11715,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [143] =
@@ -11583,6 +11729,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [144] =
@@ -11596,6 +11743,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [145] =
@@ -11609,6 +11757,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [146] =
@@ -11622,6 +11771,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [147] =
@@ -11635,6 +11785,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [148] =
@@ -11648,6 +11799,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [149] =
@@ -11661,6 +11813,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [150] =
@@ -11674,6 +11827,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [151] =
@@ -11687,6 +11841,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [152] =
@@ -11700,6 +11855,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [153] =
@@ -11713,6 +11869,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x20,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [154] =
@@ -11726,6 +11883,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [155] =
@@ -11739,6 +11897,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [156] =
@@ -11752,6 +11911,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [157] =
@@ -11765,6 +11925,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [158] =
@@ -11778,6 +11939,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [159] =
@@ -11791,6 +11953,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [160] =
@@ -11804,6 +11967,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [161] =
@@ -11817,6 +11981,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [162] =
@@ -11830,6 +11995,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [163] =
@@ -11843,6 +12009,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [164] =
@@ -11856,6 +12023,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [165] =
@@ -11869,6 +12037,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [166] =
@@ -11882,6 +12051,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [167] =
@@ -11895,6 +12065,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [168] =
@@ -11908,6 +12079,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [169] =
@@ -11921,6 +12093,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [170] =
@@ -11934,6 +12107,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [171] =
@@ -11947,6 +12121,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [172] =
@@ -11960,6 +12135,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [173] =
@@ -11973,6 +12149,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [174] =
@@ -11986,6 +12163,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [175] =
@@ -11999,6 +12177,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [176] =
@@ -12012,6 +12191,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [177] =
@@ -12025,6 +12205,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [178] =
@@ -12038,6 +12219,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [179] =
@@ -12051,6 +12233,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [180] =
@@ -12064,6 +12247,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [181] =
@@ -12077,6 +12261,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [182] =
@@ -12090,6 +12275,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 3,
         .flags = 0,
+        .physicality = 2,
     },
 
     [183] =
@@ -12103,6 +12289,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 1,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [184] =
@@ -12116,6 +12303,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [185] =
@@ -12142,6 +12330,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [187] =
@@ -12155,6 +12344,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [188] =
@@ -12168,6 +12358,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [189] =
@@ -12181,6 +12372,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [190] =
@@ -12194,6 +12386,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [191] =
@@ -12207,6 +12400,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x40,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [192] =
@@ -12220,6 +12414,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [193] =
@@ -12233,6 +12428,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [194] =
@@ -12246,6 +12442,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [195] =
@@ -12259,6 +12456,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [196] =
@@ -12272,6 +12470,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [197] =
@@ -12285,6 +12484,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 3,
         .flags = 0,
+        .physicality = 2,
     },
 
     [198] =
@@ -12298,6 +12498,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [199] =
@@ -12311,6 +12512,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [200] =
@@ -12324,6 +12526,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x4,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [201] =
@@ -12337,6 +12540,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [202] =
@@ -12350,6 +12554,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [203] =
@@ -12363,6 +12568,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 3,
         .flags = 0,
+        .physicality = 2,
     },
 
     [204] =
@@ -12376,6 +12582,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [205] =
@@ -12389,6 +12596,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [206] =
@@ -12402,6 +12610,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [207] =
@@ -12415,6 +12624,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [208] =
@@ -12428,6 +12638,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x2 | 0x8,
+        .physicality = 2,
     },
 
     [209] =
@@ -12441,6 +12652,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [210] =
@@ -12454,6 +12666,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [211] =
@@ -12467,6 +12680,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [212] =
@@ -12480,6 +12694,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [213] =
@@ -12493,6 +12708,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [214] =
@@ -12506,6 +12722,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x1,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [215] =
@@ -12519,6 +12736,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [216] =
@@ -12532,6 +12750,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [217] =
@@ -12545,6 +12764,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [218] =
@@ -12558,6 +12778,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [219] =
@@ -12571,6 +12792,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [220] =
@@ -12584,6 +12806,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [221] =
@@ -12597,6 +12820,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [222] =
@@ -12610,6 +12834,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x20,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [223] =
@@ -12623,6 +12848,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [224] =
@@ -12636,6 +12862,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [225] =
@@ -12649,6 +12876,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [226] =
@@ -12662,6 +12890,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [227] =
@@ -12675,6 +12904,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [228] =
@@ -12688,6 +12918,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [229] =
@@ -12701,6 +12932,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [230] =
@@ -12714,6 +12946,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [231] =
@@ -12727,6 +12960,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [232] =
@@ -12740,6 +12974,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [233] =
@@ -12753,6 +12988,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = -1,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [234] =
@@ -12766,6 +13002,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [235] =
@@ -12779,6 +13016,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [236] =
@@ -12792,6 +13030,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [237] =
@@ -12805,6 +13044,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [238] =
@@ -12818,6 +13058,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [239] =
@@ -12831,6 +13072,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [240] =
@@ -12844,6 +13086,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [241] =
@@ -12857,6 +13100,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [242] =
@@ -12870,6 +13114,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [243] =
@@ -12883,6 +13128,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x1,
         .priority = -5,
         .flags = 0x10,
+        .physicality = 1,
     },
 
     [244] =
@@ -12896,6 +13142,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [245] =
@@ -12909,6 +13156,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 1,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [246] =
@@ -12922,6 +13170,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [247] =
@@ -12935,6 +13184,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [248] =
@@ -12948,6 +13198,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0,
+        .physicality = 1,
     },
 
     [249] =
@@ -12961,6 +13212,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [250] =
@@ -12974,6 +13226,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [251] =
@@ -12987,6 +13240,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [252] =
@@ -13000,6 +13254,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 1,
         .flags = 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [253] =
@@ -13013,6 +13268,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x4,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [254] =
@@ -13026,6 +13282,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [255] =
@@ -13039,6 +13296,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x20,
+        .physicality = 1,
     },
 
     [256] =
@@ -13052,6 +13310,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [257] =
@@ -13065,6 +13324,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [258] =
@@ -13078,6 +13338,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x2,
+        .physicality = 2,
     },
 
     [259] =
@@ -13091,6 +13352,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [260] =
@@ -13104,6 +13366,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [261] =
@@ -13117,6 +13380,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [262] =
@@ -13130,6 +13394,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [263] =
@@ -13143,6 +13408,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [264] =
@@ -13156,6 +13422,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = -3,
         .flags = 0x1 | 0x2,
+        .physicality = 0,
     },
 
     [265] =
@@ -13182,6 +13449,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 3,
         .flags = 0,
+        .physicality = 2,
     },
 
     [267] =
@@ -13195,6 +13463,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x1,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [268] =
@@ -13208,6 +13477,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [269] =
@@ -13221,6 +13491,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2,
+        .physicality = 2,
     },
 
     [270] =
@@ -13234,6 +13505,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 5,
         .flags = 0,
+        .physicality = 2,
     },
 
     [271] =
@@ -13247,6 +13519,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [272] =
@@ -13260,6 +13533,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [273] =
@@ -13273,6 +13547,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x2,
+        .physicality = 2,
     },
 
     [274] =
@@ -13286,6 +13561,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x1,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [275] =
@@ -13299,6 +13575,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [276] =
@@ -13312,6 +13589,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [277] =
@@ -13325,6 +13603,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x1,
         .priority = 4,
         .flags = 0,
+        .physicality = 2,
     },
 
     [278] =
@@ -13338,6 +13617,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [279] =
@@ -13351,6 +13631,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = -4,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [280] =
@@ -13364,6 +13645,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [281] =
@@ -13377,6 +13659,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [282] =
@@ -13390,6 +13673,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [283] =
@@ -13403,6 +13687,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [284] =
@@ -13416,6 +13701,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [285] =
@@ -13429,6 +13715,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [286] =
@@ -13442,6 +13729,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x2,
+        .physicality = 2,
     },
 
     [287] =
@@ -13455,6 +13743,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [288] =
@@ -13468,6 +13757,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [289] =
@@ -13481,6 +13771,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x1,
         .priority = 4,
         .flags = 0x10,
+        .physicality = 2,
     },
 
     [290] =
@@ -13494,6 +13785,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [291] =
@@ -13507,6 +13799,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [292] =
@@ -13520,6 +13813,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [293] =
@@ -13533,6 +13827,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [294] =
@@ -13546,6 +13841,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [295] =
@@ -13559,6 +13855,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [296] =
@@ -13572,6 +13869,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [297] =
@@ -13585,6 +13883,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [298] =
@@ -13598,6 +13897,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x20,
         .priority = 0,
         .flags = 0x2,
+        .physicality = 2,
     },
 
     [299] =
@@ -13611,6 +13911,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [300] =
@@ -13624,6 +13925,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [301] =
@@ -13637,6 +13939,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [302] =
@@ -13650,6 +13953,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [303] =
@@ -13663,6 +13967,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [304] =
@@ -13676,6 +13981,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [305] =
@@ -13689,6 +13995,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [306] =
@@ -13702,6 +14009,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [307] =
@@ -13715,6 +14023,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [308] =
@@ -13728,6 +14037,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [309] =
@@ -13741,6 +14051,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [310] =
@@ -13754,6 +14065,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [311] =
@@ -13767,6 +14079,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [312] =
@@ -13780,6 +14093,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [313] =
@@ -13793,6 +14107,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [314] =
@@ -13806,6 +14121,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [315] =
@@ -13819,6 +14135,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [316] =
@@ -13832,6 +14149,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 2,
     },
 
     [317] =
@@ -13845,6 +14163,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [318] =
@@ -13858,6 +14177,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [319] =
@@ -13871,6 +14191,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [320] =
@@ -13884,6 +14205,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [321] =
@@ -13897,6 +14219,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10 | 0x20,
+        .physicality = 2,
     },
 
     [322] =
@@ -13910,6 +14233,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [323] =
@@ -13923,6 +14247,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [324] =
@@ -13936,6 +14261,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [325] =
@@ -13949,6 +14275,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [326] =
@@ -13962,6 +14289,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [327] =
@@ -13975,6 +14303,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [328] =
@@ -13988,6 +14317,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [329] =
@@ -14001,6 +14331,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 1,
     },
 
     [330] =
@@ -14014,6 +14345,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x8,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [331] =
@@ -14027,6 +14359,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [332] =
@@ -14040,6 +14373,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [333] =
@@ -14053,6 +14387,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [334] =
@@ -14066,6 +14401,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [335] =
@@ -14079,6 +14415,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x4 | 0x10,
+        .physicality = 2,
     },
 
     [336] =
@@ -14092,6 +14429,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [337] =
@@ -14105,6 +14443,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [338] =
@@ -14118,6 +14457,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [339] =
@@ -14131,6 +14471,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [340] =
@@ -14144,6 +14485,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [341] =
@@ -14157,6 +14499,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [342] =
@@ -14170,6 +14513,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [343] =
@@ -14183,6 +14527,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10,
+        .physicality = 0,
     },
 
     [344] =
@@ -14196,6 +14541,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [345] =
@@ -14209,6 +14555,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [346] =
@@ -14222,6 +14569,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0,
+        .physicality = 2,
     },
 
     [347] =
@@ -14235,6 +14583,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [348] =
@@ -14248,6 +14597,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x1 | 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [349] =
@@ -14261,6 +14611,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x10,
         .priority = 0,
         .flags = 0x8,
+        .physicality = 2,
     },
 
     [350] =
@@ -14274,6 +14625,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 0,
     },
 
     [351] =
@@ -14287,6 +14639,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [352] =
@@ -14300,6 +14653,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 
     [353] =
@@ -14313,6 +14667,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0,
+        .physicality = 1,
     },
 
     [354] =
@@ -14326,6 +14681,7 @@ const struct BattleMove gBattleMoves[355] =
         .target = 0x0,
         .priority = 0,
         .flags = 0x2 | 0x10 | 0x20,
+        .physicality = 1,
     },
 };
 # 77 "src/pokemon.c" 2
@@ -39216,10 +39572,8 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         if (attackerHoldEffect == sHoldEffectToType[i][0]
             && type == sHoldEffectToType[i][1])
         {
-            if ((type < 9))
-                attack = (attack * (attackerHoldEffectParam + 100)) / 100;
-            else
-                spAttack = (spAttack * (attackerHoldEffectParam + 100)) / 100;
+   attack = (attack * (attackerHoldEffectParam + 100)) / 100;
+   spAttack = (spAttack * (attackerHoldEffectParam + 100)) / 100;
             break;
         }
     }
@@ -39267,7 +39621,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     if (gBattleMoves[gCurrentMove].effect == 7)
         defense /= 2;
 
-    if ((type < 9))
+    if ((gBattleMoves[move].physicality == 0))
     {
         if (gCritMultiplier == 2)
         {
@@ -39308,7 +39662,43 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
 
         if ((gBattleTypeFlags & 0x0001) && gBattleMoves[move].target == 8 && CountAliveMonsInBattle(2) == 2)
             damage /= 2;
+  if (((!(AbilityBattleEffects(0xE, 0, 13, 0, 0)) && !(AbilityBattleEffects(0xE, 0, 77, 0, 0)))))
+        {
+            if (gBattleWeather & (1 << 0))
+            {
+                switch (type)
+                {
+                case 10:
+                    damage /= 2;
+                    break;
+                case 11:
+                    damage = (15 * damage) / 10;
+                    break;
+                }
+            }
 
+
+            if ((gBattleWeather & (((1 << 0) | (1 << 1) | (1 << 2)) | ((1 << 3) | (1 << 4)) | ((1 << 7)))) && gCurrentMove == 76)
+                damage /= 2;
+
+
+            if (gBattleWeather & ((1 << 5) | (1 << 6)))
+            {
+                switch (type)
+                {
+                case 10:
+                    damage = (15 * damage) / 10;
+                    break;
+                case 11:
+                    damage /= 2;
+                    break;
+                }
+            }
+  }
+
+
+  if ((gBattleResources->flags->flags[battlerIdAtk] & 1) && type == 10)
+            damage = (15 * damage) / 10;
 
         if (damage == 0)
             damage = 1;
@@ -39317,7 +39707,7 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     if (type == 9)
         damage = 0;
 
-    if ((type > 9))
+    if ((gBattleMoves[move].physicality == 1))
     {
         if (gCritMultiplier == 2)
         {
@@ -39395,7 +39785,6 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         if ((gBattleResources->flags->flags[battlerIdAtk] & 1) && type == 10)
             damage = (15 * damage) / 10;
     }
-
     return damage + 2;
 }
 
@@ -39580,7 +39969,7 @@ static void DecryptBoxMon(struct BoxPokemon *boxMon)
         boxMon->secure.raw[i] ^= boxMon->personality;
     }
 }
-# 3559 "src/pokemon.c"
+# 3592 "src/pokemon.c"
 static union PokemonSubstruct *GetSubstruct(struct BoxPokemon *boxMon, u32 personality, u8 substructType)
 {
     union PokemonSubstruct *substruct = ((void *)0);
@@ -42609,7 +42998,7 @@ const u8 *GetTrainerPartnerName(void)
         return gLinkPlayers[GetBattlerMultiplayerId(gLinkPlayers[id].id ^ 2)].name;
     }
 }
-# 6599 "src/pokemon.c"
+# 6632 "src/pokemon.c"
 static void Task_AnimateAfterDelay(u8 taskId)
 {
     if (--gTasks[taskId].data[3] == 0)

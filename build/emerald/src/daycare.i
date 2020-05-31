@@ -2111,6 +2111,10 @@ struct BaseStats
             u8 noFlip : 1;
 };
 
+
+
+
+
 struct BattleMove
 {
     u8 effect;
@@ -2122,6 +2126,7 @@ struct BattleMove
     u8 target;
     s8 priority;
     u8 flags;
+    u8 physicality;
 };
 
 struct SpindaSpot
@@ -4083,7 +4088,7 @@ void sub_819789C(void);
 void ScriptHatchMon(void);
 bool8 CheckDaycareMonReceivedMail(void);
 void EggHatch(void);
-u8 GetEggStepsToSubtract(void);
+u8 GetEggCyclesToSubtract(void);
 u16 CountPartyAliveNonEggMons(void);
 # 12 "src/daycare.c" 2
 # 1 "gflib/text.h" 1
@@ -10054,8 +10059,8 @@ static bool8 TryProduceOrHatchEgg(struct DayCare *daycare)
 
     if (++daycare->stepCounter == 255)
     {
-        u32 steps;
-        u8 toSub = GetEggStepsToSubtract();
+        u32 eggCycles;
+        u8 toSub = GetEggCyclesToSubtract();
 
         for (i = 0; i < gPlayerPartyCount; i++)
         {
@@ -10064,15 +10069,15 @@ static bool8 TryProduceOrHatchEgg(struct DayCare *daycare)
             if (GetMonData(&gPlayerParty[i], 4))
                 continue;
 
-            steps = GetMonData(&gPlayerParty[i], 32);
-            if (steps != 0)
+            eggCycles = GetMonData(&gPlayerParty[i], 32);
+            if (eggCycles != 0)
             {
-                if (steps >= toSub)
-                    steps -= toSub;
+                if (eggCycles >= toSub)
+                    eggCycles -= toSub;
                 else
-                    steps -= 1;
+                    eggCycles -= 1;
 
-                SetMonData(&gPlayerParty[i], 32, &steps);
+                SetMonData(&gPlayerParty[i], 32, &eggCycles);
             }
             else
             {

@@ -65,8 +65,12 @@ sPoundDescription:
 	.byte	0xdd
 	.byte	0xe0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sPoundDescription,38
+	.size	 sPoundDescription,42
 	.type	 sKarateChopDescription,object
 sKarateChopDescription:
 	.byte	0xbb
@@ -118,8 +122,12 @@ sKarateChopDescription:
 	.byte	0xdd
 	.byte	0xe3
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sKarateChopDescription,50
+	.size	 sKarateChopDescription,54
 	.type	 sDoubleSlapDescription,object
 sDoubleSlapDescription:
 	.byte	0xcc
@@ -160,8 +168,12 @@ sDoubleSlapDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sDoubleSlapDescription,39
+	.size	 sDoubleSlapDescription,43
 	.type	 sCometPunchDescription,object
 sCometPunchDescription:
 	.byte	0xcc
@@ -204,8 +216,12 @@ sCometPunchDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sCometPunchDescription,41
+	.size	 sCometPunchDescription,45
 	.type	 sMegaPunchDescription,object
 sMegaPunchDescription:
 	.byte	0xbb
@@ -252,8 +268,12 @@ sMegaPunchDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sMegaPunchDescription,45
+	.size	 sMegaPunchDescription,49
 	.type	 sPayDayDescription,object
 sPayDayDescription:
 	.byte	0xce
@@ -306,8 +326,12 @@ sPayDayDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sPayDayDescription,51
+	.size	 sPayDayDescription,55
 	.type	 sFirePunchDescription,object
 sFirePunchDescription:
 	.byte	0xbb
@@ -346,8 +370,12 @@ sFirePunchDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFirePunchDescription,37
+	.size	 sFirePunchDescription,41
 	.type	 sIcePunchDescription,object
 sIcePunchDescription:
 	.byte	0xbb
@@ -387,8 +415,12 @@ sIcePunchDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sIcePunchDescription,38
+	.size	 sIcePunchDescription,42
 	.type	 sThunderPunchDescription,object
 sThunderPunchDescription:
 	.byte	0xbb
@@ -438,8 +470,12 @@ sThunderPunchDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sThunderPunchDescription,48
+	.size	 sThunderPunchDescription,52
 	.type	 sScratchDescription,object
 sScratchDescription:
 	.byte	0xcd
@@ -477,8 +513,12 @@ sScratchDescription:
 	.byte	0xeb
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sScratchDescription,36
+	.size	 sScratchDescription,40
 	.type	 sViceGripDescription,object
 sViceGripDescription:
 	.byte	0xc1
@@ -527,8 +567,12 @@ sViceGripDescription:
 	.byte	0xe6
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sViceGripDescription,47
+	.size	 sViceGripDescription,51
 	.type	 sGuillotineDescription,object
 sGuillotineDescription:
 	.byte	0xbb
@@ -580,8 +624,12 @@ sGuillotineDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sGuillotineDescription,50
+	.size	 sGuillotineDescription,54
 	.type	 sRazorWindDescription,object
 sRazorWindDescription:
 	.byte	0xbb
@@ -635,8 +683,12 @@ sRazorWindDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sRazorWindDescription,52
+	.size	 sRazorWindDescription,56
 	.type	 sSwordsDanceDescription,object
 sSwordsDanceDescription:
 	.byte	0xbb
@@ -683,8 +735,12 @@ sSwordsDanceDescription:
 	.byte	0xbd
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSwordsDanceDescription,45
+	.size	 sSwordsDanceDescription,49
 	.type	 sCutDescription,object
 sCutDescription:
 	.byte	0xbd
@@ -731,8 +787,12 @@ sCutDescription:
 	.byte	0xe8
 	.byte	0xd7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sCutDescription,45
+	.size	 sCutDescription,49
 	.type	 sGustDescription,object
 sGustDescription:
 	.byte	0xcd
@@ -791,8 +851,12 @@ sGustDescription:
 	.byte	0xdb
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sGustDescription,57
+	.size	 sGustDescription,61
 	.type	 sWingAttackDescription,object
 sWingAttackDescription:
 	.byte	0xcd
@@ -834,8 +898,12 @@ sWingAttackDescription:
 	.byte	0xd8
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sWingAttackDescription,40
+	.size	 sWingAttackDescription,44
 	.type	 sWhirlwindDescription,object
 sWhirlwindDescription:
 	.byte	0xbc
@@ -887,8 +955,12 @@ sWhirlwindDescription:
 	.byte	0xe0
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sWhirlwindDescription,50
+	.size	 sWhirlwindDescription,54
 	.type	 sFlyDescription,object
 sFlyDescription:
 	.byte	0xc0
@@ -946,8 +1018,12 @@ sFlyDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFlyDescription,56
+	.size	 sFlyDescription,60
 	.type	 sBindDescription,object
 sBindDescription:
 	.byte	0xbc
@@ -994,8 +1070,12 @@ sBindDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBindDescription,45
+	.size	 sBindDescription,49
 	.type	 sSlamDescription,object
 sSlamDescription:
 	.byte	0xcd
@@ -1040,8 +1120,12 @@ sSlamDescription:
 	.byte	0xe8
 	.byte	0xd7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSlamDescription,43
+	.size	 sSlamDescription,47
 	.type	 sVineWhipDescription,object
 sVineWhipDescription:
 	.byte	0xcd
@@ -1089,8 +1173,12 @@ sVineWhipDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sVineWhipDescription,46
+	.size	 sVineWhipDescription,50
 	.type	 sStompDescription,object
 sStompDescription:
 	.byte	0xcd
@@ -1147,8 +1235,12 @@ sStompDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sStompDescription,55
+	.size	 sStompDescription,59
 	.type	 sDoubleKickDescription,object
 sDoubleKickDescription:
 	.byte	0xbb
@@ -1202,8 +1294,12 @@ sDoubleKickDescription:
 	.byte	0xd7
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sDoubleKickDescription,52
+	.size	 sDoubleKickDescription,56
 	.type	 sMegaKickDescription,object
 sMegaKickDescription:
 	.byte	0xbb
@@ -1252,8 +1348,12 @@ sMegaKickDescription:
 	.byte	0xd7
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sMegaKickDescription,47
+	.size	 sMegaKickDescription,51
 	.type	 sJumpKickDescription,object
 sJumpKickDescription:
 	.byte	0xbb
@@ -1308,8 +1408,12 @@ sJumpKickDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sJumpKickDescription,53
+	.size	 sJumpKickDescription,57
 	.type	 sRollingKickDescription,object
 sRollingKickDescription:
 	.byte	0xbb
@@ -1352,8 +1456,12 @@ sRollingKickDescription:
 	.byte	0xdd
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sRollingKickDescription,41
+	.size	 sRollingKickDescription,45
 	.type	 sSandAttackDescription,object
 sSandAttackDescription:
 	.byte	0xcc
@@ -1411,8 +1519,12 @@ sSandAttackDescription:
 	.byte	0xd7
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSandAttackDescription,56
+	.size	 sSandAttackDescription,60
 	.type	 sHeadbuttDescription,object
 sHeadbuttDescription:
 	.byte	0xbb
@@ -1457,8 +1569,12 @@ sHeadbuttDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sHeadbuttDescription,43
+	.size	 sHeadbuttDescription,47
 	.type	 sHornAttackDescription,object
 sHornAttackDescription:
 	.byte	0xc4
@@ -1491,8 +1607,12 @@ sHornAttackDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sHornAttackDescription,31
+	.size	 sHornAttackDescription,35
 	.type	 sFuryAttackDescription,object
 sFuryAttackDescription:
 	.byte	0xc4
@@ -1543,8 +1663,12 @@ sFuryAttackDescription:
 	.byte	0xe8
 	.byte	0xd7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFuryAttackDescription,49
+	.size	 sFuryAttackDescription,53
 	.type	 sHornDrillDescription,object
 sHornDrillDescription:
 	.byte	0xbb
@@ -1597,8 +1721,12 @@ sHornDrillDescription:
 	.byte	0xe0
 	.byte	0xe0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sHornDrillDescription,51
+	.size	 sHornDrillDescription,55
 	.type	 sTackleDescription,object
 sTackleDescription:
 	.byte	0xbd
@@ -1642,8 +1770,12 @@ sTackleDescription:
 	.byte	0xe0
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sTackleDescription,42
+	.size	 sTackleDescription,46
 	.type	 sBodySlamDescription,object
 sBodySlamDescription:
 	.byte	0xbb
@@ -1688,8 +1820,12 @@ sBodySlamDescription:
 	.byte	0xdd
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBodySlamDescription,43
+	.size	 sBodySlamDescription,47
 	.type	 sWrapDescription,object
 sWrapDescription:
 	.byte	0xd1
@@ -1748,8 +1884,12 @@ sWrapDescription:
 	.byte	0xe8
 	.byte	0xd7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sWrapDescription,57
+	.size	 sWrapDescription,61
 	.type	 sTakeDownDescription,object
 sTakeDownDescription:
 	.byte	0xbb
@@ -1802,8 +1942,12 @@ sTakeDownDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sTakeDownDescription,51
+	.size	 sTakeDownDescription,55
 	.type	 sThrashDescription,object
 sThrashDescription:
 	.byte	0xbb
@@ -1855,8 +1999,12 @@ sThrashDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sThrashDescription,50
+	.size	 sThrashDescription,54
 	.type	 sDoubleEdgeDescription,object
 sDoubleEdgeDescription:
 	.byte	0xbb
@@ -1906,8 +2054,12 @@ sDoubleEdgeDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sDoubleEdgeDescription,48
+	.size	 sDoubleEdgeDescription,52
 	.type	 sTailWhipDescription,object
 sTailWhipDescription:
 	.byte	0xd1
@@ -1951,8 +2103,12 @@ sTailWhipDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sTailWhipDescription,42
+	.size	 sTailWhipDescription,46
 	.type	 sPoisonStingDescription,object
 sPoisonStingDescription:
 	.byte	0xbb
@@ -2004,8 +2160,12 @@ sPoisonStingDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sPoisonStingDescription,50
+	.size	 sPoisonStingDescription,54
 	.type	 sTwineedleDescription,object
 sTwineedleDescription:
 	.byte	0xcd
@@ -2051,8 +2211,12 @@ sTwineedleDescription:
 	.byte	0xd7
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sTwineedleDescription,44
+	.size	 sTwineedleDescription,48
 	.type	 sPinMissileDescription,object
 sPinMissileDescription:
 	.byte	0xcd
@@ -2099,8 +2263,12 @@ sPinMissileDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sPinMissileDescription,45
+	.size	 sPinMissileDescription,49
 	.type	 sLeerDescription,object
 sLeerDescription:
 	.byte	0xc0
@@ -2150,8 +2318,12 @@ sLeerDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sLeerDescription,48
+	.size	 sLeerDescription,52
 	.type	 sBiteDescription,object
 sBiteDescription:
 	.byte	0xbc
@@ -2200,8 +2372,12 @@ sBiteDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBiteDescription,47
+	.size	 sBiteDescription,51
 	.type	 sGrowlDescription,object
 sGrowlDescription:
 	.byte	0xc1
@@ -2245,8 +2421,12 @@ sGrowlDescription:
 	.byte	0xbd
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sGrowlDescription,42
+	.size	 sGrowlDescription,46
 	.type	 sRoarDescription,object
 sRoarDescription:
 	.byte	0xc7
@@ -2286,8 +2466,12 @@ sRoarDescription:
 	.byte	0xe0
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sRoarDescription,38
+	.size	 sRoarDescription,42
 	.type	 sSingDescription,object
 sSingDescription:
 	.byte	0xbb
@@ -2340,8 +2524,12 @@ sSingDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSingDescription,51
+	.size	 sSingDescription,55
 	.type	 sSupersonicDescription,object
 sSupersonicDescription:
 	.byte	0xbf
@@ -2395,8 +2583,12 @@ sSupersonicDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSupersonicDescription,52
+	.size	 sSupersonicDescription,56
 	.type	 sSonicBoomDescription,object
 sSonicBoomDescription:
 	.byte	0xc6
@@ -2453,8 +2645,12 @@ sSonicBoomDescription:
 	.byte	0xdb
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSonicBoomDescription,55
+	.size	 sSonicBoomDescription,59
 	.type	 sDisableDescription,object
 sDisableDescription:
 	.byte	0xca
@@ -2501,8 +2697,12 @@ sDisableDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sDisableDescription,45
+	.size	 sDisableDescription,49
 	.type	 sAcidDescription,object
 sAcidDescription:
 	.byte	0xcd
@@ -2551,8 +2751,12 @@ sAcidDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sAcidDescription,47
+	.size	 sAcidDescription,51
 	.type	 sEmberDescription,object
 sEmberDescription:
 	.byte	0xbb
@@ -2598,8 +2802,12 @@ sEmberDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sEmberDescription,44
+	.size	 sEmberDescription,48
 	.type	 sFlamethrowerDescription,object
 sFlamethrowerDescription:
 	.byte	0xbb
@@ -2649,8 +2857,12 @@ sFlamethrowerDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sFlamethrowerDescription,48
+	.size	 sFlamethrowerDescription,52
 	.type	 sMistDescription,object
 sMistDescription:
 	.byte	0xbd
@@ -2702,8 +2914,12 @@ sMistDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMistDescription,50
+	.size	 sMistDescription,54
 	.type	 sWaterGunDescription,object
 sWaterGunDescription:
 	.byte	0xcd
@@ -2738,8 +2954,12 @@ sWaterGunDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sWaterGunDescription,33
+	.size	 sWaterGunDescription,37
 	.type	 sHydroPumpDescription,object
 sHydroPumpDescription:
 	.byte	0xbc
@@ -2787,8 +3007,12 @@ sHydroPumpDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sHydroPumpDescription,46
+	.size	 sHydroPumpDescription,50
 	.type	 sSurfDescription,object
 sSurfDescription:
 	.byte	0xbd
@@ -2844,8 +3068,12 @@ sSurfDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSurfDescription,54
+	.size	 sSurfDescription,58
 	.type	 sIceBeamDescription,object
 sIceBeamDescription:
 	.byte	0xbc
@@ -2899,8 +3127,12 @@ sIceBeamDescription:
 	.byte	0xdd
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sIceBeamDescription,52
+	.size	 sIceBeamDescription,56
 	.type	 sBlizzardDescription,object
 sBlizzardDescription:
 	.byte	0xc2
@@ -2953,8 +3185,12 @@ sBlizzardDescription:
 	.byte	0xdd
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sBlizzardDescription,51
+	.size	 sBlizzardDescription,55
 	.type	 sPsybeamDescription,object
 sPsybeamDescription:
 	.byte	0xc0
@@ -3003,8 +3239,12 @@ sPsybeamDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sPsybeamDescription,47
+	.size	 sPsybeamDescription,51
 	.type	 sBubbleBeamDescription,object
 sBubbleBeamDescription:
 	.byte	0xc0
@@ -3054,8 +3294,12 @@ sBubbleBeamDescription:
 	.byte	0xbf
 	.byte	0xbe
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sBubbleBeamDescription,48
+	.size	 sBubbleBeamDescription,52
 	.type	 sAuroraBeamDescription,object
 sAuroraBeamDescription:
 	.byte	0xc0
@@ -3109,8 +3353,12 @@ sAuroraBeamDescription:
 	.byte	0xbd
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sAuroraBeamDescription,52
+	.size	 sAuroraBeamDescription,56
 	.type	 sHyperBeamDescription,object
 sHyperBeamDescription:
 	.byte	0xca
@@ -3166,8 +3414,12 @@ sHyperBeamDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sHyperBeamDescription,54
+	.size	 sHyperBeamDescription,58
 	.type	 sPeckDescription,object
 sPeckDescription:
 	.byte	0xbb
@@ -3211,8 +3463,12 @@ sPeckDescription:
 	.byte	0xe8
 	.byte	0xd7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sPeckDescription,42
+	.size	 sPeckDescription,46
 	.type	 sDrillPeckDescription,object
 sDrillPeckDescription:
 	.byte	0xbb
@@ -3269,8 +3525,12 @@ sDrillPeckDescription:
 	.byte	0xe0
 	.byte	0xe0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sDrillPeckDescription,55
+	.size	 sDrillPeckDescription,59
 	.type	 sSubmissionDescription,object
 sSubmissionDescription:
 	.byte	0xbb
@@ -3319,8 +3579,12 @@ sSubmissionDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSubmissionDescription,47
+	.size	 sSubmissionDescription,51
 	.type	 sLowKickDescription,object
 sLowKickDescription:
 	.byte	0xbb
@@ -3372,8 +3636,12 @@ sLowKickDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sLowKickDescription,50
+	.size	 sLowKickDescription,54
 	.type	 sCounterDescription,object
 sCounterDescription:
 	.byte	0xcc
@@ -3426,8 +3694,12 @@ sCounterDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sCounterDescription,51
+	.size	 sCounterDescription,55
 	.type	 sSeismicTossDescription,object
 sSeismicTossDescription:
 	.byte	0xc3
@@ -3476,8 +3748,12 @@ sSeismicTossDescription:
 	.byte	0xd9
 	.byte	0xe0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSeismicTossDescription,47
+	.size	 sSeismicTossDescription,51
 	.type	 sStrengthDescription,object
 sStrengthDescription:
 	.byte	0xbc
@@ -3522,8 +3798,12 @@ sStrengthDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sStrengthDescription,43
+	.size	 sStrengthDescription,47
 	.type	 sAbsorbDescription,object
 sAbsorbDescription:
 	.byte	0xbb
@@ -3575,8 +3855,12 @@ sAbsorbDescription:
 	.byte	0xd9
 	.byte	0xd8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sAbsorbDescription,50
+	.size	 sAbsorbDescription,54
 	.type	 sMegaDrainDescription,object
 sMegaDrainDescription:
 	.byte	0xbb
@@ -3628,8 +3912,12 @@ sMegaDrainDescription:
 	.byte	0xd9
 	.byte	0xd8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sMegaDrainDescription,50
+	.size	 sMegaDrainDescription,54
 	.type	 sLeechSeedDescription,object
 sLeechSeedDescription:
 	.byte	0xca
@@ -3683,8 +3971,12 @@ sLeechSeedDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sLeechSeedDescription,52
+	.size	 sLeechSeedDescription,56
 	.type	 sGrowthDescription,object
 sGrowthDescription:
 	.byte	0xc0
@@ -3733,8 +4025,12 @@ sGrowthDescription:
 	.byte	0xce
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sGrowthDescription,47
+	.size	 sGrowthDescription,51
 	.type	 sRazorLeafDescription,object
 sRazorLeafDescription:
 	.byte	0xbd
@@ -3789,8 +4085,12 @@ sRazorLeafDescription:
 	.byte	0xdd
 	.byte	0xe3
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sRazorLeafDescription,53
+	.size	 sRazorLeafDescription,57
 	.type	 sSolarBeamDescription,object
 sSolarBeamDescription:
 	.byte	0xbb
@@ -3843,8 +4143,12 @@ sSolarBeamDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSolarBeamDescription,51
+	.size	 sSolarBeamDescription,55
 	.type	 sPoisonPowderDescription,object
 sPoisonPowderDescription:
 	.byte	0xcd
@@ -3895,8 +4199,12 @@ sPoisonPowderDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sPoisonPowderDescription,49
+	.size	 sPoisonPowderDescription,53
 	.type	 sStunSporeDescription,object
 sStunSporeDescription:
 	.byte	0xcd
@@ -3943,8 +4251,12 @@ sStunSporeDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sStunSporeDescription,45
+	.size	 sStunSporeDescription,49
 	.type	 sSleepPowderDescription,object
 sSleepPowderDescription:
 	.byte	0xcd
@@ -3997,8 +4309,12 @@ sSleepPowderDescription:
 	.byte	0xd9
 	.byte	0xe4
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSleepPowderDescription,51
+	.size	 sSleepPowderDescription,55
 	.type	 sPetalDanceDescription,object
 sPetalDanceDescription:
 	.byte	0xbb
@@ -4050,8 +4366,12 @@ sPetalDanceDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sPetalDanceDescription,50
+	.size	 sPetalDanceDescription,54
 	.type	 sStringShotDescription,object
 sStringShotDescription:
 	.byte	0xbc
@@ -4100,8 +4420,12 @@ sStringShotDescription:
 	.byte	0xbf
 	.byte	0xbe
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sStringShotDescription,47
+	.size	 sStringShotDescription,51
 	.type	 sDragonRageDescription,object
 sDragonRageDescription:
 	.byte	0xc6
@@ -4158,8 +4482,12 @@ sDragonRageDescription:
 	.byte	0xdb
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sDragonRageDescription,55
+	.size	 sDragonRageDescription,59
 	.type	 sFireSpinDescription,object
 sFireSpinDescription:
 	.byte	0xce
@@ -4211,8 +4539,12 @@ sFireSpinDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sFireSpinDescription,50
+	.size	 sFireSpinDescription,54
 	.type	 sThunderShockDescription,object
 sThunderShockDescription:
 	.byte	0xbb
@@ -4262,8 +4594,12 @@ sThunderShockDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sThunderShockDescription,48
+	.size	 sThunderShockDescription,52
 	.type	 sThunderboltDescription,object
 sThunderboltDescription:
 	.byte	0xbb
@@ -4319,8 +4655,12 @@ sThunderboltDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sThunderboltDescription,54
+	.size	 sThunderboltDescription,58
 	.type	 sThunderWaveDescription,object
 sThunderWaveDescription:
 	.byte	0xbb
@@ -4373,8 +4713,12 @@ sThunderWaveDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sThunderWaveDescription,51
+	.size	 sThunderWaveDescription,55
 	.type	 sThunderDescription,object
 sThunderDescription:
 	.byte	0xbb
@@ -4421,8 +4765,12 @@ sThunderDescription:
 	.byte	0xdd
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sThunderDescription,45
+	.size	 sThunderDescription,49
 	.type	 sRockThrowDescription,object
 sRockThrowDescription:
 	.byte	0xce
@@ -4462,8 +4810,12 @@ sRockThrowDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sRockThrowDescription,38
+	.size	 sRockThrowDescription,42
 	.type	 sEarthquakeDescription,object
 sEarthquakeDescription:
 	.byte	0xbb
@@ -4517,8 +4869,12 @@ sEarthquakeDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sEarthquakeDescription,52
+	.size	 sEarthquakeDescription,56
 	.type	 sFissureDescription,object
 sFissureDescription:
 	.byte	0xbb
@@ -4571,8 +4927,12 @@ sFissureDescription:
 	.byte	0xe6
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFissureDescription,51
+	.size	 sFissureDescription,55
 	.type	 sDigDescription,object
 sDigDescription:
 	.byte	0xbe
@@ -4629,8 +4989,12 @@ sDigDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sDigDescription,55
+	.size	 sDigDescription,59
 	.type	 sToxicDescription,object
 sToxicDescription:
 	.byte	0xca
@@ -4676,8 +5040,12 @@ sToxicDescription:
 	.byte	0xdd
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sToxicDescription,44
+	.size	 sToxicDescription,48
 	.type	 sConfusionDescription,object
 sConfusionDescription:
 	.byte	0xbb
@@ -4722,8 +5090,12 @@ sConfusionDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sConfusionDescription,43
+	.size	 sConfusionDescription,47
 	.type	 sPsychicDescription,object
 sPsychicDescription:
 	.byte	0xbb
@@ -4775,8 +5147,12 @@ sPsychicDescription:
 	.byte	0xbf
 	.byte	0xc0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sPsychicDescription,50
+	.size	 sPsychicDescription,54
 	.type	 sHypnosisDescription,object
 sHypnosisDescription:
 	.byte	0xbb
@@ -4820,8 +5196,12 @@ sHypnosisDescription:
 	.byte	0xd9
 	.byte	0xe4
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sHypnosisDescription,42
+	.size	 sHypnosisDescription,46
 	.type	 sMeditateDescription,object
 sMeditateDescription:
 	.byte	0xc7
@@ -4872,8 +5252,12 @@ sMeditateDescription:
 	.byte	0xbd
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMeditateDescription,49
+	.size	 sMeditateDescription,53
 	.type	 sAgilityDescription,object
 sAgilityDescription:
 	.byte	0xcc
@@ -4916,8 +5300,12 @@ sAgilityDescription:
 	.byte	0xbf
 	.byte	0xbe
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sAgilityDescription,41
+	.size	 sAgilityDescription,45
 	.type	 sQuickAttackDescription,object
 sQuickAttackDescription:
 	.byte	0xbb
@@ -4971,8 +5359,12 @@ sQuickAttackDescription:
 	.byte	0xe7
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sQuickAttackDescription,52
+	.size	 sQuickAttackDescription,56
 	.type	 sRageDescription,object
 sRageDescription:
 	.byte	0xcc
@@ -5021,8 +5413,12 @@ sRageDescription:
 	.byte	0xdd
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sRageDescription,47
+	.size	 sRageDescription,51
 	.type	 sTeleportDescription,object
 sTeleportDescription:
 	.byte	0xbb
@@ -5074,8 +5470,12 @@ sTeleportDescription:
 	.byte	0xe0
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sTeleportDescription,50
+	.size	 sTeleportDescription,54
 	.type	 sNightShadeDescription,object
 sNightShadeDescription:
 	.byte	0xc3
@@ -5124,8 +5524,12 @@ sNightShadeDescription:
 	.byte	0xd9
 	.byte	0xe0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sNightShadeDescription,47
+	.size	 sNightShadeDescription,51
 	.type	 sMimicDescription,object
 sMimicDescription:
 	.byte	0xbd
@@ -5176,8 +5580,12 @@ sMimicDescription:
 	.byte	0xe0
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMimicDescription,49
+	.size	 sMimicDescription,53
 	.type	 sScreechDescription,object
 sScreechDescription:
 	.byte	0xbf
@@ -5232,8 +5640,12 @@ sScreechDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sScreechDescription,53
+	.size	 sScreechDescription,57
 	.type	 sDoubleTeamDescription,object
 sDoubleTeamDescription:
 	.byte	0xbd
@@ -5281,8 +5693,12 @@ sDoubleTeamDescription:
 	.byte	0xe7
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sDoubleTeamDescription,46
+	.size	 sDoubleTeamDescription,50
 	.type	 sRecoverDescription,object
 sRecoverDescription:
 	.byte	0xcc
@@ -5327,8 +5743,12 @@ sRecoverDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sRecoverDescription,43
+	.size	 sRecoverDescription,47
 	.type	 sHardenDescription,object
 sHardenDescription:
 	.byte	0xcd
@@ -5377,8 +5797,12 @@ sHardenDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sHardenDescription,47
+	.size	 sHardenDescription,51
 	.type	 sMinimizeDescription,object
 sMinimizeDescription:
 	.byte	0xc7
@@ -5428,8 +5852,12 @@ sMinimizeDescription:
 	.byte	0xe7
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMinimizeDescription,48
+	.size	 sMinimizeDescription,52
 	.type	 sSmokescreenDescription,object
 sSmokescreenDescription:
 	.byte	0xc6
@@ -5480,8 +5908,12 @@ sSmokescreenDescription:
 	.byte	0xe8
 	.byte	0xd7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSmokescreenDescription,49
+	.size	 sSmokescreenDescription,53
 	.type	 sConfuseRayDescription,object
 sConfuseRayDescription:
 	.byte	0xbb
@@ -5521,8 +5953,12 @@ sConfuseRayDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sConfuseRayDescription,38
+	.size	 sConfuseRayDescription,42
 	.type	 sWithdrawDescription,object
 sWithdrawDescription:
 	.byte	0xd1
@@ -5581,8 +6017,12 @@ sWithdrawDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sWithdrawDescription,57
+	.size	 sWithdrawDescription,61
 	.type	 sDefenseCurlDescription,object
 sDefenseCurlDescription:
 	.byte	0xbd
@@ -5634,8 +6074,12 @@ sDefenseCurlDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sDefenseCurlDescription,50
+	.size	 sDefenseCurlDescription,54
 	.type	 sBarrierDescription,object
 sBarrierDescription:
 	.byte	0xbd
@@ -5684,8 +6128,12 @@ sBarrierDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sBarrierDescription,47
+	.size	 sBarrierDescription,51
 	.type	 sLightScreenDescription,object
 sLightScreenDescription:
 	.byte	0xbd
@@ -5739,8 +6187,12 @@ sLightScreenDescription:
 	.byte	0xdb
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sLightScreenDescription,52
+	.size	 sLightScreenDescription,56
 	.type	 sHazeDescription,object
 sHazeDescription:
 	.byte	0xbd
@@ -5797,8 +6249,12 @@ sHazeDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sHazeDescription,55
+	.size	 sHazeDescription,59
 	.type	 sReflectDescription,object
 sReflectDescription:
 	.byte	0xbd
@@ -5855,8 +6311,12 @@ sReflectDescription:
 	.byte	0xdf
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sReflectDescription,55
+	.size	 sReflectDescription,59
 	.type	 sFocusEnergyDescription,object
 sFocusEnergyDescription:
 	.byte	0xc0
@@ -5905,8 +6365,12 @@ sFocusEnergyDescription:
 	.byte	0xdd
 	.byte	0xe3
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sFocusEnergyDescription,47
+	.size	 sFocusEnergyDescription,51
 	.type	 sBideDescription,object
 sBideDescription:
 	.byte	0xbf
@@ -5956,8 +6420,12 @@ sBideDescription:
 	.byte	0xe0
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBideDescription,48
+	.size	 sBideDescription,52
 	.type	 sMetronomeDescription,object
 sMetronomeDescription:
 	.byte	0xd1
@@ -6011,8 +6479,12 @@ sMetronomeDescription:
 	.byte	0xe3
 	.byte	0xe1
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMetronomeDescription,52
+	.size	 sMetronomeDescription,56
 	.type	 sMirrorMoveDescription,object
 sMirrorMoveDescription:
 	.byte	0xbd
@@ -6060,8 +6532,12 @@ sMirrorMoveDescription:
 	.byte	0xea
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMirrorMoveDescription,46
+	.size	 sMirrorMoveDescription,50
 	.type	 sSelfDestructDescription,object
 sSelfDestructDescription:
 	.byte	0xc3
@@ -6112,8 +6588,12 @@ sSelfDestructDescription:
 	.byte	0xe2
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSelfDestructDescription,49
+	.size	 sSelfDestructDescription,53
 	.type	 sEggBombDescription,object
 sEggBombDescription:
 	.byte	0xbb
@@ -6153,8 +6633,12 @@ sEggBombDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sEggBombDescription,38
+	.size	 sEggBombDescription,42
 	.type	 sLickDescription,object
 sLickDescription:
 	.byte	0xc6
@@ -6211,8 +6695,12 @@ sLickDescription:
 	.byte	0xee
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sLickDescription,55
+	.size	 sLickDescription,59
 	.type	 sSmogDescription,object
 sSmogDescription:
 	.byte	0xbb
@@ -6258,8 +6746,12 @@ sSmogDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSmogDescription,44
+	.size	 sSmogDescription,48
 	.type	 sSludgeDescription,object
 sSludgeDescription:
 	.byte	0xcd
@@ -6314,8 +6806,12 @@ sSludgeDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSludgeDescription,53
+	.size	 sSludgeDescription,57
 	.type	 sBoneClubDescription,object
 sBoneClubDescription:
 	.byte	0xbd
@@ -6365,8 +6861,12 @@ sBoneClubDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBoneClubDescription,48
+	.size	 sBoneClubDescription,52
 	.type	 sFireBlastDescription,object
 sFireBlastDescription:
 	.byte	0xc3
@@ -6421,8 +6921,12 @@ sFireBlastDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sFireBlastDescription,53
+	.size	 sFireBlastDescription,57
 	.type	 sWaterfallDescription,object
 sWaterfallDescription:
 	.byte	0xbd
@@ -6472,8 +6976,12 @@ sWaterfallDescription:
 	.byte	0xe0
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sWaterfallDescription,48
+	.size	 sWaterfallDescription,52
 	.type	 sClampDescription,object
 sClampDescription:
 	.byte	0xce
@@ -6520,8 +7028,12 @@ sClampDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sClampDescription,45
+	.size	 sClampDescription,49
 	.type	 sSwiftDescription,object
 sSwiftDescription:
 	.byte	0xcd
@@ -6564,8 +7076,12 @@ sSwiftDescription:
 	.byte	0xe7
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSwiftDescription,41
+	.size	 sSwiftDescription,45
 	.type	 sSkullBashDescription,object
 sSkullBashDescription:
 	.byte	0xce
@@ -6617,8 +7133,12 @@ sSkullBashDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSkullBashDescription,50
+	.size	 sSkullBashDescription,54
 	.type	 sSpikeCannonDescription,object
 sSpikeCannonDescription:
 	.byte	0xc6
@@ -6668,8 +7188,12 @@ sSpikeCannonDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSpikeCannonDescription,48
+	.size	 sSpikeCannonDescription,52
 	.type	 sConstrictDescription,object
 sConstrictDescription:
 	.byte	0xbd
@@ -6716,8 +7240,12 @@ sConstrictDescription:
 	.byte	0xbf
 	.byte	0xbe
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sConstrictDescription,45
+	.size	 sConstrictDescription,49
 	.type	 sAmnesiaDescription,object
 sAmnesiaDescription:
 	.byte	0xc0
@@ -6771,8 +7299,12 @@ sAmnesiaDescription:
 	.byte	0xbf
 	.byte	0xc0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sAmnesiaDescription,52
+	.size	 sAmnesiaDescription,56
 	.type	 sKinesisDescription,object
 sKinesisDescription:
 	.byte	0xbe
@@ -6813,8 +7345,12 @@ sKinesisDescription:
 	.byte	0xd7
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sKinesisDescription,39
+	.size	 sKinesisDescription,43
 	.type	 sSoftBoiledDescription,object
 sSoftBoiledDescription:
 	.byte	0xcc
@@ -6859,8 +7395,12 @@ sSoftBoiledDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSoftBoiledDescription,43
+	.size	 sSoftBoiledDescription,47
 	.type	 sHiJumpKickDescription,object
 sHiJumpKickDescription:
 	.byte	0xbb
@@ -6915,8 +7455,12 @@ sHiJumpKickDescription:
 	.byte	0xe6
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sHiJumpKickDescription,53
+	.size	 sHiJumpKickDescription,57
 	.type	 sGlareDescription,object
 sGlareDescription:
 	.byte	0xc3
@@ -6968,8 +7512,12 @@ sGlareDescription:
 	.byte	0xdd
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sGlareDescription,50
+	.size	 sGlareDescription,54
 	.type	 sDreamEaterDescription,object
 sDreamEaterDescription:
 	.byte	0xce
@@ -7026,8 +7574,12 @@ sDreamEaterDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sDreamEaterDescription,55
+	.size	 sDreamEaterDescription,59
 	.type	 sPoisonGasDescription,object
 sPoisonGasDescription:
 	.byte	0xbf
@@ -7078,8 +7630,12 @@ sPoisonGasDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sPoisonGasDescription,49
+	.size	 sPoisonGasDescription,53
 	.type	 sBarrageDescription,object
 sBarrageDescription:
 	.byte	0xc2
@@ -7126,8 +7682,12 @@ sBarrageDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBarrageDescription,45
+	.size	 sBarrageDescription,49
 	.type	 sLeechLifeDescription,object
 sLeechLifeDescription:
 	.byte	0xbb
@@ -7178,8 +7738,12 @@ sLeechLifeDescription:
 	.byte	0xd9
 	.byte	0xd8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sLeechLifeDescription,49
+	.size	 sLeechLifeDescription,53
 	.type	 sLovelyKissDescription,object
 sLovelyKissDescription:
 	.byte	0xbe
@@ -7234,8 +7798,12 @@ sLovelyKissDescription:
 	.byte	0xd9
 	.byte	0xe4
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sLovelyKissDescription,53
+	.size	 sLovelyKissDescription,57
 	.type	 sSkyAttackDescription,object
 sSkyAttackDescription:
 	.byte	0xcd
@@ -7290,8 +7858,12 @@ sSkyAttackDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSkyAttackDescription,53
+	.size	 sSkyAttackDescription,57
 	.type	 sTransformDescription,object
 sTransformDescription:
 	.byte	0xbb
@@ -7346,8 +7918,12 @@ sTransformDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sTransformDescription,53
+	.size	 sTransformDescription,57
 	.type	 sBubbleDescription,object
 sBubbleDescription:
 	.byte	0xbb
@@ -7401,8 +7977,12 @@ sBubbleDescription:
 	.byte	0xbf
 	.byte	0xbe
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sBubbleDescription,52
+	.size	 sBubbleDescription,56
 	.type	 sDizzyPunchDescription,object
 sDizzyPunchDescription:
 	.byte	0xbb
@@ -7447,8 +8027,12 @@ sDizzyPunchDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sDizzyPunchDescription,43
+	.size	 sDizzyPunchDescription,47
 	.type	 sSporeDescription,object
 sSporeDescription:
 	.byte	0xcd
@@ -7503,8 +8087,12 @@ sSporeDescription:
 	.byte	0xd9
 	.byte	0xe4
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSporeDescription,53
+	.size	 sSporeDescription,57
 	.type	 sFlashDescription,object
 sFlashDescription:
 	.byte	0xc6
@@ -7559,8 +8147,12 @@ sFlashDescription:
 	.byte	0xd7
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sFlashDescription,53
+	.size	 sFlashDescription,57
 	.type	 sPsywaveDescription,object
 sPsywaveDescription:
 	.byte	0xbb
@@ -7612,8 +8204,12 @@ sPsywaveDescription:
 	.byte	0xe8
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sPsywaveDescription,50
+	.size	 sPsywaveDescription,54
 	.type	 sSplashDescription,object
 sSplashDescription:
 	.byte	0xc3
@@ -7663,8 +8259,12 @@ sSplashDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSplashDescription,48
+	.size	 sSplashDescription,52
 	.type	 sAcidArmorDescription,object
 sAcidArmorDescription:
 	.byte	0xc6
@@ -7718,8 +8318,12 @@ sAcidArmorDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sAcidArmorDescription,52
+	.size	 sAcidArmorDescription,56
 	.type	 sCrabhammerDescription,object
 sCrabhammerDescription:
 	.byte	0xc2
@@ -7775,8 +8379,12 @@ sCrabhammerDescription:
 	.byte	0xdd
 	.byte	0xe3
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sCrabhammerDescription,54
+	.size	 sCrabhammerDescription,58
 	.type	 sExplosionDescription,object
 sExplosionDescription:
 	.byte	0xc3
@@ -7827,8 +8435,12 @@ sExplosionDescription:
 	.byte	0xe2
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sExplosionDescription,49
+	.size	 sExplosionDescription,53
 	.type	 sFurySwipesDescription,object
 sFurySwipesDescription:
 	.byte	0xcc
@@ -7882,8 +8494,12 @@ sFurySwipesDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFurySwipesDescription,52
+	.size	 sFurySwipesDescription,56
 	.type	 sBonemerangDescription,object
 sBonemerangDescription:
 	.byte	0xce
@@ -7929,8 +8545,12 @@ sBonemerangDescription:
 	.byte	0xd7
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBonemerangDescription,44
+	.size	 sBonemerangDescription,48
 	.type	 sRestDescription,object
 sRestDescription:
 	.byte	0xce
@@ -7986,8 +8606,12 @@ sRestDescription:
 	.byte	0xe9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sRestDescription,54
+	.size	 sRestDescription,58
 	.type	 sRockSlideDescription,object
 sRockSlideDescription:
 	.byte	0xc6
@@ -8037,8 +8661,12 @@ sRockSlideDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sRockSlideDescription,48
+	.size	 sRockSlideDescription,52
 	.type	 sHyperFangDescription,object
 sHyperFangDescription:
 	.byte	0xbb
@@ -8087,8 +8715,12 @@ sHyperFangDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sHyperFangDescription,47
+	.size	 sHyperFangDescription,51
 	.type	 sSharpenDescription,object
 sSharpenDescription:
 	.byte	0xcc
@@ -8135,8 +8767,12 @@ sSharpenDescription:
 	.byte	0xbd
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSharpenDescription,45
+	.size	 sSharpenDescription,49
 	.type	 sConversionDescription,object
 sConversionDescription:
 	.byte	0xbd
@@ -8188,8 +8824,12 @@ sConversionDescription:
 	.byte	0xe4
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sConversionDescription,50
+	.size	 sConversionDescription,54
 	.type	 sTriAttackDescription,object
 sTriAttackDescription:
 	.byte	0xc0
@@ -8236,8 +8876,12 @@ sTriAttackDescription:
 	.byte	0xe1
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sTriAttackDescription,45
+	.size	 sTriAttackDescription,49
 	.type	 sSuperFangDescription,object
 sSuperFangDescription:
 	.byte	0xbb
@@ -8292,8 +8936,12 @@ sSuperFangDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSuperFangDescription,53
+	.size	 sSuperFangDescription,57
 	.type	 sSlashDescription,object
 sSlashDescription:
 	.byte	0xcd
@@ -8351,8 +8999,12 @@ sSlashDescription:
 	.byte	0xdd
 	.byte	0xe3
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSlashDescription,56
+	.size	 sSlashDescription,60
 	.type	 sSubstituteDescription,object
 sSubstituteDescription:
 	.byte	0xbd
@@ -8406,8 +9058,12 @@ sSubstituteDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSubstituteDescription,52
+	.size	 sSubstituteDescription,56
 	.type	 sStruggleDescription,object
 sStruggleDescription:
 	.byte	0xcf
@@ -8469,8 +9125,12 @@ sStruggleDescription:
 	.byte	0xe0
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sStruggleDescription,60
+	.size	 sStruggleDescription,64
 	.type	 sSketchDescription,object
 sSketchDescription:
 	.byte	0xbd
@@ -8512,8 +9172,12 @@ sSketchDescription:
 	.byte	0xe0
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSketchDescription,40
+	.size	 sSketchDescription,44
 	.type	 sTripleKickDescription,object
 sTripleKickDescription:
 	.byte	0xc5
@@ -8569,8 +9233,12 @@ sTripleKickDescription:
 	.byte	0xe8
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sTripleKickDescription,54
+	.size	 sTripleKickDescription,58
 	.type	 sThiefDescription,object
 sThiefDescription:
 	.byte	0xd1
@@ -8623,8 +9291,12 @@ sThiefDescription:
 	.byte	0xd9
 	.byte	0xe1
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sThiefDescription,51
+	.size	 sThiefDescription,55
 	.type	 sSpiderWebDescription,object
 sSpiderWebDescription:
 	.byte	0xbf
@@ -8681,8 +9353,12 @@ sSpiderWebDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSpiderWebDescription,55
+	.size	 sSpiderWebDescription,59
 	.type	 sMindReaderDescription,object
 sMindReaderDescription:
 	.byte	0xcd
@@ -8739,8 +9415,12 @@ sMindReaderDescription:
 	.byte	0xdd
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMindReaderDescription,55
+	.size	 sMindReaderDescription,59
 	.type	 sNightmareDescription,object
 sNightmareDescription:
 	.byte	0xc3
@@ -8792,8 +9472,12 @@ sNightmareDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sNightmareDescription,50
+	.size	 sNightmareDescription,54
 	.type	 sFlameWheelDescription,object
 sFlameWheelDescription:
 	.byte	0xbb
@@ -8842,8 +9526,12 @@ sFlameWheelDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFlameWheelDescription,47
+	.size	 sFlameWheelDescription,51
 	.type	 sSnoreDescription,object
 sSnoreDescription:
 	.byte	0xbb
@@ -8895,8 +9583,12 @@ sSnoreDescription:
 	.byte	0xd9
 	.byte	0xe4
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSnoreDescription,50
+	.size	 sSnoreDescription,54
 	.type	 sCurseDescription,object
 sCurseDescription:
 	.byte	0xbb
@@ -8944,8 +9636,12 @@ sCurseDescription:
 	.byte	0xce
 	.byte	0xcd
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sCurseDescription,46
+	.size	 sCurseDescription,50
 	.type	 sFlailDescription,object
 sFlailDescription:
 	.byte	0xc3
@@ -8996,8 +9692,12 @@ sFlailDescription:
 	.byte	0xeb
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFlailDescription,49
+	.size	 sFlailDescription,53
 	.type	 sConversion2Description,object
 sConversion2Description:
 	.byte	0xc7
@@ -9051,8 +9751,12 @@ sConversion2Description:
 	.byte	0xe4
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sConversion2Description,52
+	.size	 sConversion2Description,56
 	.type	 sAeroblastDescription,object
 sAeroblastDescription:
 	.byte	0xc6
@@ -9106,8 +9810,12 @@ sAeroblastDescription:
 	.byte	0xdd
 	.byte	0xe3
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sAeroblastDescription,52
+	.size	 sAeroblastDescription,56
 	.type	 sCottonSporeDescription,object
 sCottonSporeDescription:
 	.byte	0xcd
@@ -9158,8 +9866,12 @@ sCottonSporeDescription:
 	.byte	0xbf
 	.byte	0xbe
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sCottonSporeDescription,49
+	.size	 sCottonSporeDescription,53
 	.type	 sReversalDescription,object
 sReversalDescription:
 	.byte	0xc3
@@ -9210,8 +9922,12 @@ sReversalDescription:
 	.byte	0xeb
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sReversalDescription,49
+	.size	 sReversalDescription,53
 	.type	 sSpiteDescription,object
 sSpiteDescription:
 	.byte	0xcd
@@ -9260,8 +9976,12 @@ sSpiteDescription:
 	.byte	0xea
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSpiteDescription,47
+	.size	 sSpiteDescription,51
 	.type	 sPowderSnowDescription,object
 sPowderSnowDescription:
 	.byte	0xbc
@@ -9317,8 +10037,12 @@ sPowderSnowDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sPowderSnowDescription,54
+	.size	 sPowderSnowDescription,58
 	.type	 sProtectDescription,object
 sProtectDescription:
 	.byte	0xbf
@@ -9371,8 +10095,12 @@ sProtectDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sProtectDescription,51
+	.size	 sProtectDescription,55
 	.type	 sMachPunchDescription,object
 sMachPunchDescription:
 	.byte	0xbb
@@ -9425,8 +10153,12 @@ sMachPunchDescription:
 	.byte	0xe7
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sMachPunchDescription,51
+	.size	 sMachPunchDescription,55
 	.type	 sScaryFaceDescription,object
 sScaryFaceDescription:
 	.byte	0xc0
@@ -9481,8 +10213,12 @@ sScaryFaceDescription:
 	.byte	0xbf
 	.byte	0xbe
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sScaryFaceDescription,53
+	.size	 sScaryFaceDescription,57
 	.type	 sFaintAttackDescription,object
 sFaintAttackDescription:
 	.byte	0xbe
@@ -9532,8 +10268,12 @@ sFaintAttackDescription:
 	.byte	0xdd
 	.byte	0xe0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sFaintAttackDescription,48
+	.size	 sFaintAttackDescription,52
 	.type	 sSweetKissDescription,object
 sSweetKissDescription:
 	.byte	0xbe
@@ -9589,8 +10329,12 @@ sSweetKissDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSweetKissDescription,54
+	.size	 sSweetKissDescription,58
 	.type	 sBellyDrumDescription,object
 sBellyDrumDescription:
 	.byte	0xc7
@@ -9631,8 +10375,12 @@ sBellyDrumDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sBellyDrumDescription,39
+	.size	 sBellyDrumDescription,43
 	.type	 sSludgeBombDescription,object
 sSludgeBombDescription:
 	.byte	0xcd
@@ -9687,8 +10435,12 @@ sSludgeBombDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSludgeBombDescription,53
+	.size	 sSludgeBombDescription,57
 	.type	 sMudSlapDescription,object
 sMudSlapDescription:
 	.byte	0xc2
@@ -9742,8 +10494,12 @@ sMudSlapDescription:
 	.byte	0xd7
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sMudSlapDescription,52
+	.size	 sMudSlapDescription,56
 	.type	 sOctazookaDescription,object
 sOctazookaDescription:
 	.byte	0xc0
@@ -9793,8 +10549,12 @@ sOctazookaDescription:
 	.byte	0xd7
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sOctazookaDescription,48
+	.size	 sOctazookaDescription,52
 	.type	 sSpikesDescription,object
 sSpikesDescription:
 	.byte	0xcd
@@ -9839,8 +10599,12 @@ sSpikesDescription:
 	.byte	0xdd
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSpikesDescription,43
+	.size	 sSpikesDescription,47
 	.type	 sZapCannonDescription,object
 sZapCannonDescription:
 	.byte	0xca
@@ -9896,8 +10660,12 @@ sZapCannonDescription:
 	.byte	0xe8
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sZapCannonDescription,54
+	.size	 sZapCannonDescription,58
 	.type	 sForesightDescription,object
 sForesightDescription:
 	.byte	0xc8
@@ -9950,8 +10718,12 @@ sForesightDescription:
 	.byte	0xe7
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sForesightDescription,51
+	.size	 sForesightDescription,55
 	.type	 sDestinyBondDescription,object
 sDestinyBondDescription:
 	.byte	0xc3
@@ -10004,8 +10776,12 @@ sDestinyBondDescription:
 	.byte	0xe2
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sDestinyBondDescription,51
+	.size	 sDestinyBondDescription,55
 	.type	 sPerishSongDescription,object
 sPerishSongDescription:
 	.byte	0xbb
@@ -10056,8 +10832,12 @@ sPerishSongDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sPerishSongDescription,49
+	.size	 sPerishSongDescription,53
 	.type	 sIcyWindDescription,object
 sIcyWindDescription:
 	.byte	0xbb
@@ -10106,8 +10886,12 @@ sIcyWindDescription:
 	.byte	0xbf
 	.byte	0xbe
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sIcyWindDescription,47
+	.size	 sIcyWindDescription,51
 	.type	 sDetectDescription,object
 sDetectDescription:
 	.byte	0xbf
@@ -10160,8 +10944,12 @@ sDetectDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sDetectDescription,51
+	.size	 sDetectDescription,55
 	.type	 sBoneRushDescription,object
 sBoneRushDescription:
 	.byte	0xcd
@@ -10213,8 +11001,12 @@ sBoneRushDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBoneRushDescription,50
+	.size	 sBoneRushDescription,54
 	.type	 sLockOnDescription,object
 sLockOnDescription:
 	.byte	0xc6
@@ -10266,8 +11058,12 @@ sLockOnDescription:
 	.byte	0xe8
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sLockOnDescription,50
+	.size	 sLockOnDescription,54
 	.type	 sOutrageDescription,object
 sOutrageDescription:
 	.byte	0xbb
@@ -10319,8 +11115,12 @@ sOutrageDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sOutrageDescription,50
+	.size	 sOutrageDescription,54
 	.type	 sSandstormDescription,object
 sSandstormDescription:
 	.byte	0xbd
@@ -10371,8 +11171,12 @@ sSandstormDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSandstormDescription,49
+	.size	 sSandstormDescription,53
 	.type	 sGigaDrainDescription,object
 sGigaDrainDescription:
 	.byte	0xbb
@@ -10423,8 +11227,12 @@ sGigaDrainDescription:
 	.byte	0xd9
 	.byte	0xd8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sGigaDrainDescription,49
+	.size	 sGigaDrainDescription,53
 	.type	 sEndureDescription,object
 sEndureDescription:
 	.byte	0xbf
@@ -10479,8 +11287,12 @@ sEndureDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sEndureDescription,53
+	.size	 sEndureDescription,57
 	.type	 sCharmDescription,object
 sCharmDescription:
 	.byte	0xbd
@@ -10529,8 +11341,12 @@ sCharmDescription:
 	.byte	0xbd
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sCharmDescription,47
+	.size	 sCharmDescription,51
 	.type	 sRolloutDescription,object
 sRolloutDescription:
 	.byte	0xbb
@@ -10581,8 +11397,12 @@ sRolloutDescription:
 	.byte	0xe8
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sRolloutDescription,49
+	.size	 sRolloutDescription,53
 	.type	 sFalseSwipeDescription,object
 sFalseSwipeDescription:
 	.byte	0xbb
@@ -10634,8 +11454,12 @@ sFalseSwipeDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFalseSwipeDescription,50
+	.size	 sFalseSwipeDescription,54
 	.type	 sSwaggerDescription,object
 sSwaggerDescription:
 	.byte	0xbd
@@ -10687,8 +11511,12 @@ sSwaggerDescription:
 	.byte	0xbd
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSwaggerDescription,50
+	.size	 sSwaggerDescription,54
 	.type	 sMilkDrinkDescription,object
 sMilkDrinkDescription:
 	.byte	0xcc
@@ -10733,8 +11561,12 @@ sMilkDrinkDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMilkDrinkDescription,43
+	.size	 sMilkDrinkDescription,47
 	.type	 sSparkDescription,object
 sSparkDescription:
 	.byte	0xbb
@@ -10785,8 +11617,12 @@ sSparkDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSparkDescription,49
+	.size	 sSparkDescription,53
 	.type	 sFuryCutterDescription,object
 sFuryCutterDescription:
 	.byte	0xbb
@@ -10839,8 +11675,12 @@ sFuryCutterDescription:
 	.byte	0xdd
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFuryCutterDescription,51
+	.size	 sFuryCutterDescription,55
 	.type	 sSteelWingDescription,object
 sSteelWingDescription:
 	.byte	0xcd
@@ -10887,8 +11727,12 @@ sSteelWingDescription:
 	.byte	0xd8
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSteelWingDescription,45
+	.size	 sSteelWingDescription,49
 	.type	 sMeanLookDescription,object
 sMeanLookDescription:
 	.byte	0xc0
@@ -10943,8 +11787,12 @@ sMeanLookDescription:
 	.byte	0xe4
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMeanLookDescription,53
+	.size	 sMeanLookDescription,57
 	.type	 sAttractDescription,object
 sAttractDescription:
 	.byte	0xc7
@@ -10995,8 +11843,12 @@ sAttractDescription:
 	.byte	0xd7
 	.byte	0xdf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sAttractDescription,49
+	.size	 sAttractDescription,53
 	.type	 sSleepTalkDescription,object
 sSleepTalkDescription:
 	.byte	0xcf
@@ -11044,8 +11896,12 @@ sSleepTalkDescription:
 	.byte	0xd9
 	.byte	0xe4
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSleepTalkDescription,46
+	.size	 sSleepTalkDescription,50
 	.type	 sHealBellDescription,object
 sHealBellDescription:
 	.byte	0xbd
@@ -11099,8 +11955,12 @@ sHealBellDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sHealBellDescription,52
+	.size	 sHealBellDescription,56
 	.type	 sReturnDescription,object
 sReturnDescription:
 	.byte	0xbb
@@ -11153,8 +12013,12 @@ sReturnDescription:
 	.byte	0xdd
 	.byte	0xe4
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sReturnDescription,51
+	.size	 sReturnDescription,55
 	.type	 sPresentDescription,object
 sPresentDescription:
 	.byte	0xbb
@@ -11202,8 +12066,12 @@ sPresentDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sPresentDescription,46
+	.size	 sPresentDescription,50
 	.type	 sFrustrationDescription,object
 sFrustrationDescription:
 	.byte	0xbb
@@ -11260,8 +12128,12 @@ sFrustrationDescription:
 	.byte	0xd9
 	.byte	0xd8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFrustrationDescription,55
+	.size	 sFrustrationDescription,59
 	.type	 sSafeguardDescription,object
 sSafeguardDescription:
 	.byte	0xbb
@@ -11310,8 +12182,12 @@ sSafeguardDescription:
 	.byte	0xe1
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSafeguardDescription,47
+	.size	 sSafeguardDescription,51
 	.type	 sPainSplitDescription,object
 sPainSplitDescription:
 	.byte	0xbb
@@ -11367,8 +12243,12 @@ sPainSplitDescription:
 	.byte	0xe0
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sPainSplitDescription,54
+	.size	 sPainSplitDescription,58
 	.type	 sSacredFireDescription,object
 sSacredFireDescription:
 	.byte	0xbb
@@ -11418,8 +12298,12 @@ sSacredFireDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSacredFireDescription,48
+	.size	 sSacredFireDescription,52
 	.type	 sMagnitudeDescription,object
 sMagnitudeDescription:
 	.byte	0xbb
@@ -11466,8 +12350,12 @@ sMagnitudeDescription:
 	.byte	0xe8
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sMagnitudeDescription,45
+	.size	 sMagnitudeDescription,49
 	.type	 sDynamicPunchDescription,object
 sDynamicPunchDescription:
 	.byte	0xca
@@ -11523,8 +12411,12 @@ sDynamicPunchDescription:
 	.byte	0xe8
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sDynamicPunchDescription,54
+	.size	 sDynamicPunchDescription,58
 	.type	 sMegahornDescription,object
 sMegahornDescription:
 	.byte	0xbb
@@ -11574,8 +12466,12 @@ sMegahornDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sMegahornDescription,48
+	.size	 sMegahornDescription,52
 	.type	 sDragonBreathDescription,object
 sDragonBreathDescription:
 	.byte	0xcd
@@ -11629,8 +12525,12 @@ sDragonBreathDescription:
 	.byte	0xe8
 	.byte	0xdc
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sDragonBreathDescription,52
+	.size	 sDragonBreathDescription,56
 	.type	 sBatonPassDescription,object
 sBatonPassDescription:
 	.byte	0xcd
@@ -11685,8 +12585,12 @@ sBatonPassDescription:
 	.byte	0xd5
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sBatonPassDescription,53
+	.size	 sBatonPassDescription,57
 	.type	 sEncoreDescription,object
 sEncoreDescription:
 	.byte	0xc7
@@ -11742,8 +12646,12 @@ sEncoreDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sEncoreDescription,54
+	.size	 sEncoreDescription,58
 	.type	 sPursuitDescription,object
 sPursuitDescription:
 	.byte	0xc3
@@ -11797,8 +12705,12 @@ sPursuitDescription:
 	.byte	0xe9
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sPursuitDescription,52
+	.size	 sPursuitDescription,56
 	.type	 sRapidSpinDescription,object
 sRapidSpinDescription:
 	.byte	0xcd
@@ -11848,8 +12760,12 @@ sRapidSpinDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sRapidSpinDescription,48
+	.size	 sRapidSpinDescription,52
 	.type	 sSweetScentDescription,object
 sSweetScentDescription:
 	.byte	0xbb
@@ -11890,8 +12806,12 @@ sSweetScentDescription:
 	.byte	0xe7
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSweetScentDescription,39
+	.size	 sSweetScentDescription,43
 	.type	 sIronTailDescription,object
 sIronTailDescription:
 	.byte	0xbb
@@ -11943,8 +12863,12 @@ sIronTailDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sIronTailDescription,50
+	.size	 sIronTailDescription,54
 	.type	 sMetalClawDescription,object
 sMetalClawDescription:
 	.byte	0xbb
@@ -11994,8 +12918,12 @@ sMetalClawDescription:
 	.byte	0xbd
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sMetalClawDescription,48
+	.size	 sMetalClawDescription,52
 	.type	 sVitalThrowDescription,object
 sVitalThrowDescription:
 	.byte	0xc7
@@ -12046,8 +12974,12 @@ sVitalThrowDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sVitalThrowDescription,49
+	.size	 sVitalThrowDescription,53
 	.type	 sMorningSunDescription,object
 sMorningSunDescription:
 	.byte	0xcc
@@ -12098,8 +13030,12 @@ sMorningSunDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMorningSunDescription,49
+	.size	 sMorningSunDescription,53
 	.type	 sSynthesisDescription,object
 sSynthesisDescription:
 	.byte	0xcc
@@ -12150,8 +13086,12 @@ sSynthesisDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSynthesisDescription,49
+	.size	 sSynthesisDescription,53
 	.type	 sMoonlightDescription,object
 sMoonlightDescription:
 	.byte	0xcc
@@ -12202,8 +13142,12 @@ sMoonlightDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMoonlightDescription,49
+	.size	 sMoonlightDescription,53
 	.type	 sHiddenPowerDescription,object
 sHiddenPowerDescription:
 	.byte	0xce
@@ -12245,8 +13189,12 @@ sHiddenPowerDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sHiddenPowerDescription,40
+	.size	 sHiddenPowerDescription,44
 	.type	 sCrossChopDescription,object
 sCrossChopDescription:
 	.byte	0xbb
@@ -12299,8 +13247,12 @@ sCrossChopDescription:
 	.byte	0xdd
 	.byte	0xe3
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sCrossChopDescription,51
+	.size	 sCrossChopDescription,55
 	.type	 sTwisterDescription,object
 sTwisterDescription:
 	.byte	0xd1
@@ -12349,8 +13301,12 @@ sTwisterDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sTwisterDescription,47
+	.size	 sTwisterDescription,51
 	.type	 sRainDanceDescription,object
 sRainDanceDescription:
 	.byte	0xbc
@@ -12403,8 +13359,12 @@ sRainDanceDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sRainDanceDescription,51
+	.size	 sRainDanceDescription,55
 	.type	 sSunnyDayDescription,object
 sSunnyDayDescription:
 	.byte	0xbc
@@ -12456,8 +13416,12 @@ sSunnyDayDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSunnyDayDescription,50
+	.size	 sSunnyDayDescription,54
 	.type	 sCrunchDescription,object
 sCrunchDescription:
 	.byte	0xbd
@@ -12505,8 +13469,12 @@ sCrunchDescription:
 	.byte	0xbf
 	.byte	0xc0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sCrunchDescription,46
+	.size	 sCrunchDescription,50
 	.type	 sMirrorCoatDescription,object
 sMirrorCoatDescription:
 	.byte	0xbd
@@ -12563,8 +13531,12 @@ sMirrorCoatDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sMirrorCoatDescription,55
+	.size	 sMirrorCoatDescription,59
 	.type	 sPsychUpDescription,object
 sPsychUpDescription:
 	.byte	0xbd
@@ -12616,8 +13588,12 @@ sPsychUpDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sPsychUpDescription,50
+	.size	 sPsychUpDescription,54
 	.type	 sExtremeSpeedDescription,object
 sExtremeSpeedDescription:
 	.byte	0xbb
@@ -12658,8 +13634,12 @@ sExtremeSpeedDescription:
 	.byte	0xd7
 	.byte	0xdf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sExtremeSpeedDescription,39
+	.size	 sExtremeSpeedDescription,43
 	.type	 sAncientPowerDescription,object
 sAncientPowerDescription:
 	.byte	0xbb
@@ -12697,8 +13677,12 @@ sAncientPowerDescription:
 	.byte	0xe8
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sAncientPowerDescription,36
+	.size	 sAncientPowerDescription,40
 	.type	 sShadowBallDescription,object
 sShadowBallDescription:
 	.byte	0xc2
@@ -12753,8 +13737,12 @@ sShadowBallDescription:
 	.byte	0xbf
 	.byte	0xc0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sShadowBallDescription,53
+	.size	 sShadowBallDescription,57
 	.type	 sFutureSightDescription,object
 sFutureSightDescription:
 	.byte	0xc2
@@ -12803,8 +13791,12 @@ sFutureSightDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sFutureSightDescription,47
+	.size	 sFutureSightDescription,51
 	.type	 sRockSmashDescription,object
 sRockSmashDescription:
 	.byte	0xbb
@@ -12853,8 +13845,12 @@ sRockSmashDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sRockSmashDescription,47
+	.size	 sRockSmashDescription,51
 	.type	 sWhirlpoolDescription,object
 sWhirlpoolDescription:
 	.byte	0xce
@@ -12913,8 +13909,12 @@ sWhirlpoolDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sWhirlpoolDescription,57
+	.size	 sWhirlpoolDescription,61
 	.type	 sBeatUpDescription,object
 sBeatUpDescription:
 	.byte	0xcd
@@ -12961,8 +13961,12 @@ sBeatUpDescription:
 	.byte	0xd7
 	.byte	0xdf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBeatUpDescription,45
+	.size	 sBeatUpDescription,49
 	.type	 sFakeOutDescription,object
 sFakeOutDescription:
 	.byte	0xbb
@@ -13015,8 +14019,12 @@ sFakeOutDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFakeOutDescription,51
+	.size	 sFakeOutDescription,55
 	.type	 sUproarDescription,object
 sUproarDescription:
 	.byte	0xbd
@@ -13072,8 +14080,12 @@ sUproarDescription:
 	.byte	0xd9
 	.byte	0xe4
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sUproarDescription,54
+	.size	 sUproarDescription,58
 	.type	 sStockpileDescription,object
 sStockpileDescription:
 	.byte	0xbd
@@ -13111,8 +14123,12 @@ sStockpileDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sStockpileDescription,36
+	.size	 sStockpileDescription,40
 	.type	 sSpitUpDescription,object
 sSpitUpDescription:
 	.byte	0xcc
@@ -13163,8 +14179,12 @@ sSpitUpDescription:
 	.byte	0xe6
 	.byte	0x5d
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSpitUpDescription,49
+	.size	 sSpitUpDescription,53
 	.type	 sSwallowDescription,object
 sSwallowDescription:
 	.byte	0xbb
@@ -13208,8 +14228,12 @@ sSwallowDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSwallowDescription,42
+	.size	 sSwallowDescription,46
 	.type	 sHeatWaveDescription,object
 sHeatWaveDescription:
 	.byte	0xbf
@@ -13264,8 +14288,12 @@ sHeatWaveDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sHeatWaveDescription,53
+	.size	 sHeatWaveDescription,57
 	.type	 sHailDescription,object
 sHailDescription:
 	.byte	0xcd
@@ -13312,8 +14340,12 @@ sHailDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sHailDescription,45
+	.size	 sHailDescription,49
 	.type	 sTormentDescription,object
 sTormentDescription:
 	.byte	0xce
@@ -13368,8 +14400,12 @@ sTormentDescription:
 	.byte	0xea
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sTormentDescription,53
+	.size	 sTormentDescription,57
 	.type	 sFlatterDescription,object
 sFlatterDescription:
 	.byte	0xbd
@@ -13413,8 +14449,12 @@ sFlatterDescription:
 	.byte	0xce
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sFlatterDescription,42
+	.size	 sFlatterDescription,46
 	.type	 sWillOWispDescription,object
 sWillOWispDescription:
 	.byte	0xc3
@@ -13462,8 +14502,12 @@ sWillOWispDescription:
 	.byte	0xe6
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sWillOWispDescription,46
+	.size	 sWillOWispDescription,50
 	.type	 sMementoDescription,object
 sMementoDescription:
 	.byte	0xce
@@ -13513,8 +14557,12 @@ sMementoDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMementoDescription,48
+	.size	 sMementoDescription,52
 	.type	 sFacadeDescription,object
 sFacadeDescription:
 	.byte	0xbc
@@ -13567,8 +14615,12 @@ sFacadeDescription:
 	.byte	0xd9
 	.byte	0xd8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFacadeDescription,51
+	.size	 sFacadeDescription,55
 	.type	 sFocusPunchDescription,object
 sFocusPunchDescription:
 	.byte	0xbb
@@ -13623,8 +14675,12 @@ sFocusPunchDescription:
 	.byte	0xdd
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sFocusPunchDescription,53
+	.size	 sFocusPunchDescription,57
 	.type	 sSmellingSaltDescription,object
 sSmellingSaltDescription:
 	.byte	0xca
@@ -13680,8 +14736,12 @@ sSmellingSaltDescription:
 	.byte	0xd9
 	.byte	0xe1
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSmellingSaltDescription,54
+	.size	 sSmellingSaltDescription,58
 	.type	 sFollowMeDescription,object
 sFollowMeDescription:
 	.byte	0xbe
@@ -13734,8 +14794,12 @@ sFollowMeDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sFollowMeDescription,51
+	.size	 sFollowMeDescription,55
 	.type	 sNaturePowerDescription,object
 sNaturePowerDescription:
 	.byte	0xce
@@ -13790,8 +14854,12 @@ sNaturePowerDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sNaturePowerDescription,53
+	.size	 sNaturePowerDescription,57
 	.type	 sChargeDescription,object
 sChargeDescription:
 	.byte	0xbd
@@ -13845,8 +14913,12 @@ sChargeDescription:
 	.byte	0xec
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sChargeDescription,52
+	.size	 sChargeDescription,56
 	.type	 sTauntDescription,object
 sTauntDescription:
 	.byte	0xce
@@ -13893,8 +14965,12 @@ sTauntDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sTauntDescription,45
+	.size	 sTauntDescription,49
 	.type	 sHelpingHandDescription,object
 sHelpingHandDescription:
 	.byte	0xbc
@@ -13939,8 +15015,12 @@ sHelpingHandDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sHelpingHandDescription,43
+	.size	 sHelpingHandDescription,47
 	.type	 sTrickDescription,object
 sTrickDescription:
 	.byte	0xce
@@ -13982,8 +15062,12 @@ sTrickDescription:
 	.byte	0xe1
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sTrickDescription,40
+	.size	 sTrickDescription,44
 	.type	 sRolePlayDescription,object
 sRolePlayDescription:
 	.byte	0xc7
@@ -14035,8 +15119,12 @@ sRolePlayDescription:
 	.byte	0xe8
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sRolePlayDescription,50
+	.size	 sRolePlayDescription,54
 	.type	 sWishDescription,object
 sWishDescription:
 	.byte	0xbb
@@ -14086,8 +15174,12 @@ sWishDescription:
 	.byte	0xe6
 	.byte	0xdf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sWishDescription,48
+	.size	 sWishDescription,52
 	.type	 sAssistDescription,object
 sAssistDescription:
 	.byte	0xbb
@@ -14139,8 +15231,12 @@ sAssistDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sAssistDescription,50
+	.size	 sAssistDescription,54
 	.type	 sIngrainDescription,object
 sIngrainDescription:
 	.byte	0xc6
@@ -14197,8 +15293,12 @@ sIngrainDescription:
 	.byte	0xe9
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sIngrainDescription,55
+	.size	 sIngrainDescription,59
 	.type	 sSuperpowerDescription,object
 sSuperpowerDescription:
 	.byte	0xbc
@@ -14247,8 +15347,12 @@ sSuperpowerDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSuperpowerDescription,47
+	.size	 sSuperpowerDescription,51
 	.type	 sMagicCoatDescription,object
 sMagicCoatDescription:
 	.byte	0xcc
@@ -14297,8 +15401,12 @@ sMagicCoatDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMagicCoatDescription,47
+	.size	 sMagicCoatDescription,51
 	.type	 sRecycleDescription,object
 sRecycleDescription:
 	.byte	0xcc
@@ -14339,8 +15447,12 @@ sRecycleDescription:
 	.byte	0xe7
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sRecycleDescription,39
+	.size	 sRecycleDescription,43
 	.type	 sRevengeDescription,object
 sRevengeDescription:
 	.byte	0xbb
@@ -14392,8 +15504,12 @@ sRevengeDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sRevengeDescription,50
+	.size	 sRevengeDescription,54
 	.type	 sBrickBreakDescription,object
 sBrickBreakDescription:
 	.byte	0xbe
@@ -14448,8 +15564,12 @@ sBrickBreakDescription:
 	.byte	0xdb
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBrickBreakDescription,53
+	.size	 sBrickBreakDescription,57
 	.type	 sYawnDescription,object
 sYawnDescription:
 	.byte	0xc6
@@ -14504,8 +15624,12 @@ sYawnDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sYawnDescription,53
+	.size	 sYawnDescription,57
 	.type	 sKnockOffDescription,object
 sKnockOffDescription:
 	.byte	0xc5
@@ -14559,8 +15683,12 @@ sKnockOffDescription:
 	.byte	0xe7
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sKnockOffDescription,52
+	.size	 sKnockOffDescription,56
 	.type	 sEndeavorDescription,object
 sEndeavorDescription:
 	.byte	0xc1
@@ -14619,8 +15747,12 @@ sEndeavorDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sEndeavorDescription,57
+	.size	 sEndeavorDescription,61
 	.type	 sEruptionDescription,object
 sEruptionDescription:
 	.byte	0xce
@@ -14672,8 +15804,12 @@ sEruptionDescription:
 	.byte	0xd9
 	.byte	0xd8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sEruptionDescription,50
+	.size	 sEruptionDescription,54
 	.type	 sSkillSwapDescription,object
 sSkillSwapDescription:
 	.byte	0xce
@@ -14725,8 +15861,12 @@ sSkillSwapDescription:
 	.byte	0xd9
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSkillSwapDescription,50
+	.size	 sSkillSwapDescription,54
 	.type	 sImprisonDescription,object
 sImprisonDescription:
 	.byte	0xca
@@ -14778,8 +15918,12 @@ sImprisonDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sImprisonDescription,50
+	.size	 sImprisonDescription,54
 	.type	 sRefreshDescription,object
 sRefreshDescription:
 	.byte	0xc2
@@ -14820,8 +15964,12 @@ sRefreshDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sRefreshDescription,39
+	.size	 sRefreshDescription,43
 	.type	 sGrudgeDescription,object
 sGrudgeDescription:
 	.byte	0xc3
@@ -14878,8 +16026,12 @@ sGrudgeDescription:
 	.byte	0xea
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sGrudgeDescription,55
+	.size	 sGrudgeDescription,59
 	.type	 sSnatchDescription,object
 sSnatchDescription:
 	.byte	0xcd
@@ -14934,8 +16086,12 @@ sSnatchDescription:
 	.byte	0xec
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSnatchDescription,53
+	.size	 sSnatchDescription,57
 	.type	 sSecretPowerDescription,object
 sSecretPowerDescription:
 	.byte	0xbb
@@ -14983,8 +16139,12 @@ sSecretPowerDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSecretPowerDescription,46
+	.size	 sSecretPowerDescription,50
 	.type	 sDiveDescription,object
 sDiveDescription:
 	.byte	0xbe
@@ -15041,8 +16201,12 @@ sDiveDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sDiveDescription,55
+	.size	 sDiveDescription,59
 	.type	 sArmThrustDescription,object
 sArmThrustDescription:
 	.byte	0xcd
@@ -15099,8 +16263,12 @@ sArmThrustDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sArmThrustDescription,55
+	.size	 sArmThrustDescription,59
 	.type	 sCamouflageDescription,object
 sCamouflageDescription:
 	.byte	0xbb
@@ -15155,8 +16323,12 @@ sCamouflageDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sCamouflageDescription,53
+	.size	 sCamouflageDescription,57
 	.type	 sTailGlowDescription,object
 sTailGlowDescription:
 	.byte	0xc0
@@ -15203,8 +16375,12 @@ sTailGlowDescription:
 	.byte	0xce
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sTailGlowDescription,45
+	.size	 sTailGlowDescription,49
 	.type	 sLusterPurgeDescription,object
 sLusterPurgeDescription:
 	.byte	0xbb
@@ -15256,8 +16432,12 @@ sLusterPurgeDescription:
 	.byte	0xbf
 	.byte	0xc0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sLusterPurgeDescription,50
+	.size	 sLusterPurgeDescription,54
 	.type	 sMistBallDescription,object
 sMistBallDescription:
 	.byte	0xbb
@@ -15309,8 +16489,12 @@ sMistBallDescription:
 	.byte	0xce
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sMistBallDescription,50
+	.size	 sMistBallDescription,54
 	.type	 sFeatherDanceDescription,object
 sFeatherDanceDescription:
 	.byte	0xbf
@@ -15365,8 +16549,12 @@ sFeatherDanceDescription:
 	.byte	0xbd
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sFeatherDanceDescription,53
+	.size	 sFeatherDanceDescription,57
 	.type	 sTeeterDanceDescription,object
 sTeeterDanceDescription:
 	.byte	0xbd
@@ -15403,8 +16591,12 @@ sTeeterDanceDescription:
 	.byte	0xe2
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sTeeterDanceDescription,35
+	.size	 sTeeterDanceDescription,39
 	.type	 sBlazeKickDescription,object
 sBlazeKickDescription:
 	.byte	0xbb
@@ -15464,8 +16656,12 @@ sBlazeKickDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBlazeKickDescription,58
+	.size	 sBlazeKickDescription,62
 	.type	 sMudSportDescription,object
 sMudSportDescription:
 	.byte	0xbd
@@ -15522,8 +16718,12 @@ sMudSportDescription:
 	.byte	0xd7
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMudSportDescription,55
+	.size	 sMudSportDescription,59
 	.type	 sIceBallDescription,object
 sIceBallDescription:
 	.byte	0xbb
@@ -15578,8 +16778,12 @@ sIceBallDescription:
 	.byte	0xe8
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sIceBallDescription,53
+	.size	 sIceBallDescription,57
 	.type	 sNeedleArmDescription,object
 sNeedleArmDescription:
 	.byte	0xbb
@@ -15628,8 +16832,12 @@ sNeedleArmDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sNeedleArmDescription,47
+	.size	 sNeedleArmDescription,51
 	.type	 sSlackOffDescription,object
 sSlackOffDescription:
 	.byte	0xcd
@@ -15676,8 +16884,12 @@ sSlackOffDescription:
 	.byte	0xc2
 	.byte	0xca
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sSlackOffDescription,45
+	.size	 sSlackOffDescription,49
 	.type	 sHyperVoiceDescription,object
 sHyperVoiceDescription:
 	.byte	0xbb
@@ -15726,8 +16938,12 @@ sHyperVoiceDescription:
 	.byte	0xe6
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sHyperVoiceDescription,47
+	.size	 sHyperVoiceDescription,51
 	.type	 sPoisonFangDescription,object
 sPoisonFangDescription:
 	.byte	0xbb
@@ -15778,8 +16994,12 @@ sPoisonFangDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sPoisonFangDescription,49
+	.size	 sPoisonFangDescription,53
 	.type	 sCrushClawDescription,object
 sCrushClawDescription:
 	.byte	0xce
@@ -15835,8 +17055,12 @@ sCrushClawDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sCrushClawDescription,54
+	.size	 sCrushClawDescription,58
 	.type	 sBlastBurnDescription,object
 sBlastBurnDescription:
 	.byte	0xca
@@ -15892,8 +17116,12 @@ sBlastBurnDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sBlastBurnDescription,54
+	.size	 sBlastBurnDescription,58
 	.type	 sHydroCannonDescription,object
 sHydroCannonDescription:
 	.byte	0xca
@@ -15949,8 +17177,12 @@ sHydroCannonDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sHydroCannonDescription,54
+	.size	 sHydroCannonDescription,58
 	.type	 sMeteorMashDescription,object
 sMeteorMashDescription:
 	.byte	0xc0
@@ -15997,8 +17229,12 @@ sMeteorMashDescription:
 	.byte	0xbd
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sMeteorMashDescription,45
+	.size	 sMeteorMashDescription,49
 	.type	 sAstonishDescription,object
 sAstonishDescription:
 	.byte	0xbb
@@ -16049,8 +17285,12 @@ sAstonishDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sAstonishDescription,49
+	.size	 sAstonishDescription,53
 	.type	 sWeatherBallDescription,object
 sWeatherBallDescription:
 	.byte	0xce
@@ -16103,8 +17343,12 @@ sWeatherBallDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sWeatherBallDescription,51
+	.size	 sWeatherBallDescription,55
 	.type	 sAromatherapyDescription,object
 sAromatherapyDescription:
 	.byte	0xc2
@@ -16155,8 +17399,12 @@ sAromatherapyDescription:
 	.byte	0xe2
 	.byte	0xe8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sAromatherapyDescription,49
+	.size	 sAromatherapyDescription,53
 	.type	 sFakeTearsDescription,object
 sFakeTearsDescription:
 	.byte	0xc0
@@ -16208,8 +17456,12 @@ sFakeTearsDescription:
 	.byte	0xbf
 	.byte	0xc0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sFakeTearsDescription,50
+	.size	 sFakeTearsDescription,54
 	.type	 sAirCutterDescription,object
 sAirCutterDescription:
 	.byte	0xc2
@@ -16263,8 +17515,12 @@ sAirCutterDescription:
 	.byte	0xdd
 	.byte	0xe3
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sAirCutterDescription,52
+	.size	 sAirCutterDescription,56
 	.type	 sOverheatDescription,object
 sOverheatDescription:
 	.byte	0xbb
@@ -16322,8 +17578,12 @@ sOverheatDescription:
 	.byte	0xce
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sOverheatDescription,56
+	.size	 sOverheatDescription,60
 	.type	 sOdorSleuthDescription,object
 sOdorSleuthDescription:
 	.byte	0xc8
@@ -16376,8 +17636,12 @@ sOdorSleuthDescription:
 	.byte	0xe7
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sOdorSleuthDescription,51
+	.size	 sOdorSleuthDescription,55
 	.type	 sRockTombDescription,object
 sRockTombDescription:
 	.byte	0xcd
@@ -16432,8 +17696,12 @@ sRockTombDescription:
 	.byte	0xbf
 	.byte	0xbe
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sRockTombDescription,53
+	.size	 sRockTombDescription,57
 	.type	 sSilverWindDescription,object
 sSilverWindDescription:
 	.byte	0xbb
@@ -16478,8 +17746,12 @@ sSilverWindDescription:
 	.byte	0xd9
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSilverWindDescription,43
+	.size	 sSilverWindDescription,47
 	.type	 sMetalSoundDescription,object
 sMetalSoundDescription:
 	.byte	0xbf
@@ -16535,8 +17807,12 @@ sMetalSoundDescription:
 	.byte	0xbf
 	.byte	0xc0
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sMetalSoundDescription,54
+	.size	 sMetalSoundDescription,58
 	.type	 sGrassWhistleDescription,object
 sGrassWhistleDescription:
 	.byte	0xc6
@@ -16587,8 +17863,12 @@ sGrassWhistleDescription:
 	.byte	0xd8
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sGrassWhistleDescription,49
+	.size	 sGrassWhistleDescription,53
 	.type	 sTickleDescription,object
 sTickleDescription:
 	.byte	0xc7
@@ -16639,8 +17919,12 @@ sTickleDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sTickleDescription,49
+	.size	 sTickleDescription,53
 	.type	 sCosmicPowerDescription,object
 sCosmicPowerDescription:
 	.byte	0xcc
@@ -16690,8 +17974,12 @@ sCosmicPowerDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sCosmicPowerDescription,48
+	.size	 sCosmicPowerDescription,52
 	.type	 sWaterSpoutDescription,object
 sWaterSpoutDescription:
 	.byte	0xc3
@@ -16740,8 +18028,12 @@ sWaterSpoutDescription:
 	.byte	0xdb
 	.byte	0xdc
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sWaterSpoutDescription,47
+	.size	 sWaterSpoutDescription,51
 	.type	 sSignalBeamDescription,object
 sSignalBeamDescription:
 	.byte	0xbb
@@ -16791,8 +18083,12 @@ sSignalBeamDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSignalBeamDescription,48
+	.size	 sSignalBeamDescription,52
 	.type	 sShadowPunchDescription,object
 sShadowPunchDescription:
 	.byte	0xbb
@@ -16844,8 +18140,12 @@ sShadowPunchDescription:
 	.byte	0xeb
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sShadowPunchDescription,50
+	.size	 sShadowPunchDescription,54
 	.type	 sExtrasensoryDescription,object
 sExtrasensoryDescription:
 	.byte	0xbb
@@ -16899,8 +18199,12 @@ sExtrasensoryDescription:
 	.byte	0xe2
 	.byte	0xdb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sExtrasensoryDescription,52
+	.size	 sExtrasensoryDescription,56
 	.type	 sSkyUppercutDescription,object
 sSkyUppercutDescription:
 	.byte	0xbb
@@ -16949,8 +18253,12 @@ sSkyUppercutDescription:
 	.byte	0xdf
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSkyUppercutDescription,47
+	.size	 sSkyUppercutDescription,51
 	.type	 sSandTombDescription,object
 sSandTombDescription:
 	.byte	0xce
@@ -17007,8 +18315,12 @@ sSandTombDescription:
 	.byte	0xe2
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sSandTombDescription,55
+	.size	 sSandTombDescription,59
 	.type	 sSheerColdDescription,object
 sSheerColdDescription:
 	.byte	0xbb
@@ -17061,8 +18373,12 @@ sSheerColdDescription:
 	.byte	0xe8
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sSheerColdDescription,51
+	.size	 sSheerColdDescription,55
 	.type	 sMuddyWaterDescription,object
 sMuddyWaterDescription:
 	.byte	0xbb
@@ -17110,8 +18426,12 @@ sMuddyWaterDescription:
 	.byte	0xd7
 	.byte	0xed
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sMuddyWaterDescription,46
+	.size	 sMuddyWaterDescription,50
 	.type	 sBulletSeedDescription,object
 sBulletSeedDescription:
 	.byte	0xcd
@@ -17161,8 +18481,12 @@ sBulletSeedDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBulletSeedDescription,48
+	.size	 sBulletSeedDescription,52
 	.type	 sAerialAceDescription,object
 sAerialAceDescription:
 	.byte	0xbb
@@ -17208,8 +18532,12 @@ sAerialAceDescription:
 	.byte	0xd7
 	.byte	0xdf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sAerialAceDescription,44
+	.size	 sAerialAceDescription,48
 	.type	 sIcicleSpearDescription,object
 sIcicleSpearDescription:
 	.byte	0xbb
@@ -17262,8 +18590,12 @@ sIcicleSpearDescription:
 	.byte	0xe3
 	.byte	0xeb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sIcicleSpearDescription,51
+	.size	 sIcicleSpearDescription,55
 	.type	 sIronDefenseDescription,object
 sIronDefenseDescription:
 	.byte	0xc2
@@ -17318,8 +18650,12 @@ sIronDefenseDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sIronDefenseDescription,53
+	.size	 sIronDefenseDescription,57
 	.type	 sBlockDescription,object
 sBlockDescription:
 	.byte	0xbc
@@ -17361,8 +18697,12 @@ sBlockDescription:
 	.byte	0xe4
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sBlockDescription,40
+	.size	 sBlockDescription,44
 	.type	 sHowlDescription,object
 sHowlDescription:
 	.byte	0xc2
@@ -17409,8 +18749,12 @@ sHowlDescription:
 	.byte	0xbd
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sHowlDescription,45
+	.size	 sHowlDescription,49
 	.type	 sDragonClawDescription,object
 sDragonClawDescription:
 	.byte	0xcd
@@ -17446,8 +18790,12 @@ sDragonClawDescription:
 	.byte	0xeb
 	.byte	0xe7
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sDragonClawDescription,34
+	.size	 sDragonClawDescription,38
 	.type	 sFrenzyPlantDescription,object
 sFrenzyPlantDescription:
 	.byte	0xca
@@ -17503,8 +18851,12 @@ sFrenzyPlantDescription:
 	.byte	0xe6
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sFrenzyPlantDescription,54
+	.size	 sFrenzyPlantDescription,58
 	.type	 sBulkUpDescription,object
 sBulkUpDescription:
 	.byte	0xbc
@@ -17558,8 +18910,12 @@ sBulkUpDescription:
 	.byte	0xcd
 	.byte	0xbf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sBulkUpDescription,52
+	.size	 sBulkUpDescription,56
 	.type	 sBounceDescription,object
 sBounceDescription:
 	.byte	0xbc
@@ -17612,8 +18968,12 @@ sBounceDescription:
 	.byte	0xee
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sBounceDescription,51
+	.size	 sBounceDescription,55
 	.type	 sMudShotDescription,object
 sMudShotDescription:
 	.byte	0xc2
@@ -17655,8 +19015,12 @@ sMudShotDescription:
 	.byte	0xbf
 	.byte	0xbe
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sMudShotDescription,40
+	.size	 sMudShotDescription,44
 	.type	 sPoisonTailDescription,object
 sPoisonTailDescription:
 	.byte	0xc2
@@ -17706,8 +19070,12 @@ sPoisonTailDescription:
 	.byte	0xe3
 	.byte	0xe2
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sPoisonTailDescription,48
+	.size	 sPoisonTailDescription,52
 	.type	 sCovetDescription,object
 sCovetDescription:
 	.byte	0xbd
@@ -17756,8 +19124,12 @@ sCovetDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sCovetDescription,47
+	.size	 sCovetDescription,51
 	.type	 sVoltTackleDescription,object
 sVoltTackleDescription:
 	.byte	0xbb
@@ -17811,8 +19183,12 @@ sVoltTackleDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sVoltTackleDescription,52
+	.size	 sVoltTackleDescription,56
 	.type	 sMagicalLeafDescription,object
 sMagicalLeafDescription:
 	.byte	0xbb
@@ -17865,8 +19241,12 @@ sMagicalLeafDescription:
 	.byte	0xd9
 	.byte	0xd8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sMagicalLeafDescription,51
+	.size	 sMagicalLeafDescription,55
 	.type	 sWaterSportDescription,object
 sWaterSportDescription:
 	.byte	0xce
@@ -17921,8 +19301,12 @@ sWaterSportDescription:
 	.byte	0xe6
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sWaterSportDescription,53
+	.size	 sWaterSportDescription,57
 	.type	 sCalmMindDescription,object
 sCalmMindDescription:
 	.byte	0xcc
@@ -17973,8 +19357,12 @@ sCalmMindDescription:
 	.byte	0xe2
 	.byte	0xd8
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sCalmMindDescription,49
+	.size	 sCalmMindDescription,53
 	.type	 sLeafBladeDescription,object
 sLeafBladeDescription:
 	.byte	0xcd
@@ -18028,8 +19416,12 @@ sLeafBladeDescription:
 	.byte	0xdd
 	.byte	0xe3
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sLeafBladeDescription,52
+	.size	 sLeafBladeDescription,56
 	.type	 sDragonDanceDescription,object
 sDragonDanceDescription:
 	.byte	0xbb
@@ -18075,8 +19467,12 @@ sDragonDanceDescription:
 	.byte	0xbf
 	.byte	0xbe
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xce
+	.byte	0xbb
 	.byte	0xff
-	.size	 sDragonDanceDescription,44
+	.size	 sDragonDanceDescription,48
 	.type	 sRockBlastDescription,object
 sRockBlastDescription:
 	.byte	0xc2
@@ -18127,8 +19523,12 @@ sRockBlastDescription:
 	.byte	0xe3
 	.byte	0xeb
 	.byte	0xad
+	.byte	0x0
+	.byte	0xca
+	.byte	0xc2
+	.byte	0xd3
 	.byte	0xff
-	.size	 sRockBlastDescription,49
+	.size	 sRockBlastDescription,53
 	.type	 sShockWaveDescription,object
 sShockWaveDescription:
 	.byte	0xbb
@@ -18170,8 +19570,12 @@ sShockWaveDescription:
 	.byte	0xd7
 	.byte	0xdf
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sShockWaveDescription,40
+	.size	 sShockWaveDescription,44
 	.type	 sWaterPulseDescription,object
 sWaterPulseDescription:
 	.byte	0xbb
@@ -18225,8 +19629,12 @@ sWaterPulseDescription:
 	.byte	0xe3
 	.byte	0xd9
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sWaterPulseDescription,52
+	.size	 sWaterPulseDescription,56
 	.type	 sDoomDesireDescription,object
 sDoomDesireDescription:
 	.byte	0xcd
@@ -18277,8 +19685,12 @@ sDoomDesireDescription:
 	.byte	0xd9
 	.byte	0xe6
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sDoomDesireDescription,49
+	.size	 sDoomDesireDescription,53
 	.type	 sPsychoBoostDescription,object
 sPsychoBoostDescription:
 	.byte	0xbb
@@ -18336,8 +19748,12 @@ sPsychoBoostDescription:
 	.byte	0xce
 	.byte	0xc5
 	.byte	0xad
+	.byte	0x0
+	.byte	0xcd
+	.byte	0xca
+	.byte	0xbf
 	.byte	0xff
-	.size	 sPsychoBoostDescription,56
+	.size	 sPsychoBoostDescription,60
 	.globl	gMoveDescriptionPointers
 	.align	2, 0
 	.type	 gMoveDescriptionPointers,object

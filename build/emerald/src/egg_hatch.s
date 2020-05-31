@@ -4407,10 +4407,10 @@ EggHatchPrintMessage:
 .Lfe23:
 	.size	 EggHatchPrintMessage,.Lfe23-EggHatchPrintMessage
 	.align	2, 0
-	.globl	GetEggStepsToSubtract
-	.type	 GetEggStepsToSubtract,function
+	.globl	GetEggCyclesToSubtract
+	.type	 GetEggCyclesToSubtract,function
 	.thumb_func
-GetEggStepsToSubtract:
+GetEggCyclesToSubtract:
 	push	{r4, r5, r6, lr}
 	bl	CalculatePlayerPartyCount
 	lsl	r0, r0, #0x18
@@ -4457,7 +4457,7 @@ GetEggStepsToSubtract:
 	pop	{r1}
 	bx	r1
 .Lfe24:
-	.size	 GetEggStepsToSubtract,.Lfe24-GetEggStepsToSubtract
+	.size	 GetEggCyclesToSubtract,.Lfe24-GetEggCyclesToSubtract
 	.align	2, 0
 	.globl	CountPartyAliveNonEggMons
 	.type	 CountPartyAliveNonEggMons,function

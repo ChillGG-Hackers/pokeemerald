@@ -2111,6 +2111,10 @@ struct BaseStats
             u8 noFlip : 1;
 };
 
+
+
+
+
 struct BattleMove
 {
     u8 effect;
@@ -2122,6 +2126,7 @@ struct BattleMove
     u8 target;
     s8 priority;
     u8 flags;
+    u8 physicality;
 };
 
 struct SpindaSpot
@@ -2819,7 +2824,7 @@ struct TradeRoomPlayer
 void ScriptHatchMon(void);
 bool8 CheckDaycareMonReceivedMail(void);
 void EggHatch(void);
-u8 GetEggStepsToSubtract(void);
+u8 GetEggCyclesToSubtract(void);
 u16 CountPartyAliveNonEggMons(void);
 # 4 "src/egg_hatch.c" 2
 # 1 "include/pokedex.h" 1
@@ -11920,7 +11925,7 @@ static void EggHatchPrintMessage(u8 windowId, u8* string, u8 x, u8 y, u8 speed)
     AddTextPrinterParameterized4(windowId, 1, x, y, 0, 0, sEggHatchData->textColor, speed, string);
 }
 
-u8 GetEggStepsToSubtract(void)
+u8 GetEggCyclesToSubtract(void)
 {
     u8 count, i;
     for (count = CalculatePlayerPartyCount(), i = 0; i < count; i++)

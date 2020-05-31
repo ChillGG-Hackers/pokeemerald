@@ -2111,6 +2111,10 @@ struct BaseStats
             u8 noFlip : 1;
 };
 
+
+
+
+
 struct BattleMove
 {
     u8 effect;
@@ -2122,6 +2126,7 @@ struct BattleMove
     u8 target;
     s8 priority;
     u8 flags;
+    u8 physicality;
 };
 
 struct SpindaSpot
@@ -8668,7 +8673,7 @@ static void Cmd_accuracycheck(void)
             calc = (calc * 130) / 100;
         if (((!(AbilityBattleEffects(0x13, 0, 13, 0, 0)) && !(AbilityBattleEffects(0x13, 0, 77, 0, 0)))) && gBattleMons[gBattlerTarget].ability == 8 && gBattleWeather & ((1 << 3) | (1 << 4)))
             calc = (calc * 80) / 100;
-        if (gBattleMons[gBattlerAttacker].ability == 55 && (type < 9))
+        if (gBattleMons[gBattlerAttacker].ability == 55 && (gBattleMoves[move].physicality == 0))
             calc = (calc * 80) / 100;
 
         if (gBattleMons[gBattlerTarget].item == 175)
@@ -9428,7 +9433,7 @@ static void Cmd_datahpupdate(void)
                 if (!gSpecialStatuses[gActiveBattler].dmg && !(gHitMarker & 0x00100000))
                     gSpecialStatuses[gActiveBattler].dmg = gHpDealt;
 
-                if ((moveType < 9) && !(gHitMarker & 0x00100000) && gCurrentMove != 220)
+                if ((gBattleMoves[gCurrentMove].physicality == 0) && !(gHitMarker & 0x00100000) && gCurrentMove != 220)
                 {
                     gProtectStructs[gActiveBattler].physicalDmg = gHpDealt;
                     gSpecialStatuses[gActiveBattler].physicalDmg = gHpDealt;
@@ -9443,7 +9448,7 @@ static void Cmd_datahpupdate(void)
                         gSpecialStatuses[gActiveBattler].physicalBattlerId = gBattlerTarget;
                     }
                 }
-                else if (!(moveType < 9) && !(gHitMarker & 0x00100000))
+                else if ((gBattleMoves[gCurrentMove].physicality == 1) && !(gHitMarker & 0x00100000))
                 {
                     gProtectStructs[gActiveBattler].specialDmg = gHpDealt;
                     gSpecialStatuses[gActiveBattler].specialDmg = gHpDealt;

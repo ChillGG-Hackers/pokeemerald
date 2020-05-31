@@ -2111,6 +2111,10 @@ struct BaseStats
             u8 noFlip : 1;
 };
 
+
+
+
+
 struct BattleMove
 {
     u8 effect;
@@ -2122,6 +2126,7 @@ struct BattleMove
     u8 target;
     s8 priority;
     u8 flags;
+    u8 physicality;
 };
 
 struct SpindaSpot
@@ -10154,11 +10159,14 @@ void CB2_InitTitleScreen(void)
         gMain.state = 1;
         break;
     case 1:
-        LZ77UnCompVram(gTitleScreenPokemonLogoGfx, (void *)0x6000000);
+
+        LZ77UnCompVram(gTitleScreenPokemonLogoGfx, (void *)((0x6000000 + (0x4000 * (0)))));
         LZ77UnCompVram(gUnknown_08DE0644, (void *)((0x6000000 + (0x800 * (9)))));
         LoadPalette(gTitleScreenBgPalettes, 0, 0x1E0);
+
         LZ77UnCompVram(sTitleScreenRayquazaGfx, (void *)((0x6000000 + (0x4000 * (2)))));
         LZ77UnCompVram(sTitleScreenRayquazaTilemap, (void *)((0x6000000 + (0x800 * (26)))));
+
         LZ77UnCompVram(sTitleScreenCloudsGfx, (void *)((0x6000000 + (0x4000 * (3)))));
         LZ77UnCompVram(gUnknown_08DDE458, (void *)((0x6000000 + (0x800 * (27)))));
         ScanlineEffect_Stop();

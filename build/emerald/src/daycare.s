@@ -3629,7 +3629,7 @@ TryProduceOrHatchEgg:
 	lsr	r0, r0, #0x18
 	cmp	r0, #0xff
 	bne	.L361	@cond_branch
-	bl	GetEggStepsToSubtract
+	bl	GetEggCyclesToSubtract
 	lsl	r0, r0, #0x18
 	lsr	r6, r0, #0x18
 	mov	r5, #0x0
